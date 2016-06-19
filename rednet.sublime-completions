@@ -4,15 +4,15 @@
   "completions": [
 			{
 			"trigger": "rednet_open( side )",
-			"completion": "rednet.open( ${1:side} )"
+			"contents": "rednet.open( ${1:side} )"
 		},
 		{
 			"trigger": "rednet_close( [side] )",
-			"completion": "rednet.close( ${1:[side]} )"
+			"contents": "rednet.close( ${1:[side]} )"
 		},
 		{
 			"trigger": "rednet_isOpen( [side] )",
-			"completion": "rednet.isOpen( ${1:[side]} )"
+			"contents": "rednet.isOpen( ${1:[side]} )"
 		}
 
   ]

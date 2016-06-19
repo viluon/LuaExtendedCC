@@ -4,67 +4,67 @@
   "completions": [
 			{
 			"trigger": "term_write( text )",
-			"completion": "term.write( ${1:text} )"
+			"contents": "term.write( ${1:text} )"
 		},
 		{
 			"trigger": "term_blit( text, textColor, backgroundColor )",
-			"completion": "term.blit( ${1:text}, ${2:textColor}, ${3:backgroundColor} )"
+			"contents": "term.blit( ${1:text}, ${2:textColor}, ${3:backgroundColor} )"
 		},
 		{
 			"trigger": "term_clear()",
-			"completion": "term.clear()"
+			"contents": "term.clear()"
 		},
 		{
 			"trigger": "term_clearLine()",
-			"completion": "term.clearLine()"
+			"contents": "term.clearLine()"
 		},
 		{
 			"trigger": "term_getCursorPos()",
-			"completion": "term.getCursorPos()"
+			"contents": "term.getCursorPos()"
 		},
 		{
 			"trigger": "term_setCursorPos( x, y )",
-			"completion": "term.setCursorPos( ${1:x}, ${2:y} )"
+			"contents": "term.setCursorPos( ${1:x}, ${2:y} )"
 		},
 		{
 			"trigger": "term_setCursorBlink( blink )",
-			"completion": "term.setCursorBlink( ${1:blink} )"
+			"contents": "term.setCursorBlink( ${1:blink} )"
 		},
 		{
 			"trigger": "term_isColor()",
-			"completion": "term.isColor()"
+			"contents": "term.isColor()"
 		},
 		{
 			"trigger": "term_setTextColor( color )",
-			"completion": "term.setTextColor( ${1:color} )"
+			"contents": "term.setTextColor( ${1:color} )"
 		},
 		{
 			"trigger": "term_setBackgroundColor( color )",
-			"completion": "term.setBackgroundColor( ${1:color} )"
+			"contents": "term.setBackgroundColor( ${1:color} )"
 		},
 		{
 			"trigger": "term_getTextColor()",
-			"completion": "term.getTextColor()"
+			"contents": "term.getTextColor()"
 		},
 		{
 			"trigger": "term_getBackgroundColor()",
-			"completion": "term.getBackgroundColor()"
+			"contents": "term.getBackgroundColor()"
 		},
 		{
 			"trigger": "term_getSize()",
-			"completion": "term.getSize()"
+			"contents": "term.getSize()"
 		},
 		{
 			"trigger": "term_scroll( n )",
-			"completion": "term.scroll( ${1:n} )"
+			"contents": "term.scroll( ${1:n} )"
 		},
 		{
 			"trigger": "term_redirect( object )",
-			"completion": "term.redirect( ${1:object} )"
+			"contents": "term.redirect( ${1:object} )"
 		},
 		{
 			"trigger": "term_current()",
-			"completion": "term.current()"
+			"contents": "term.current()"
 		}
 
   ]

@@ -4,39 +4,39 @@
   "completions": [
 			{
 			"trigger": "textutils_slowPrint( text )",
-			"completion": "textutils.slowPrint( ${1:text} )"
+			"contents": "textutils.slowPrint( ${1:text} )"
 		},
 		{
 			"trigger": "textutils_tabulate( table, table2, ... )",
-			"completion": "textutils.tabulate( ${1:table}, ${2:table2}, ${3:...} )"
+			"contents": "textutils.tabulate( ${1:table}, ${2:table2}, ${3:...} )"
 		},
 		{
 			"trigger": "textutils_pagedTabulate( table, table2, ... )",
-			"completion": "textutils.pagedTabulate( ${1:table}, ${2:table2}, ${3:...} )"
+			"contents": "textutils.pagedTabulate( ${1:table}, ${2:table2}, ${3:...} )"
 		},
 		{
 			"trigger": "textutils_formatTime( time, bTwentyFourHour )",
-			"completion": "textutils.formatTime( ${1:time}, ${2:bTwentyFourHour} )"
+			"contents": "textutils.formatTime( ${1:time}, ${2:bTwentyFourHour} )"
 		},
 		{
 			"trigger": "textutils_serialize( table )",
-			"completion": "textutils.serialize( ${1:table} )"
+			"contents": "textutils.serialize( ${1:table} )"
 		},
 		{
 			"trigger": "textutils_unserialize( string )",
-			"completion": "textutils.unserialize( ${1:string} )"
+			"contents": "textutils.unserialize( ${1:string} )"
 		},
 		{
 			"trigger": "textutils_serializeJSON( table, [useNBTStyle] )",
-			"completion": "textutils.serializeJSON( ${1:table}, ${2:[useNBTStyle]} )"
+			"contents": "textutils.serializeJSON( ${1:table}, ${2:[useNBTStyle]} )"
 		},
 		{
 			"trigger": "textutils_urlEncode( string )",
-			"completion": "textutils.urlEncode( ${1:string} )"
+			"contents": "textutils.urlEncode( ${1:string} )"
 		},
 		{
 			"trigger": "textutils_complete( string, table )",
-			"completion": "textutils.complete( ${1:string}, ${2:table} )"
+			"contents": "textutils.complete( ${1:string}, ${2:table} )"
 		}
 
   ]

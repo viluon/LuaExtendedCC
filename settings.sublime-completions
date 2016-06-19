@@ -4,31 +4,31 @@
   "completions": [
 			{
 			"trigger": "settings_get( name, [default] )",
-			"completion": "settings.get( ${1:name}, ${2:[default]} )"
+			"contents": "settings.get( ${1:name}, ${2:[default]} )"
 		},
 		{
 			"trigger": "settings_set( name, value )",
-			"completion": "settings.set( ${1:name}, ${2:value} )"
+			"contents": "settings.set( ${1:name}, ${2:value} )"
 		},
 		{
 			"trigger": "settings_unset( name )",
-			"completion": "settings.unset( ${1:name} )"
+			"contents": "settings.unset( ${1:name} )"
 		},
 		{
 			"trigger": "settings_load( path )",
-			"completion": "settings.load( ${1:path} )"
+			"contents": "settings.load( ${1:path} )"
 		},
 		{
 			"trigger": "settings_save( path )",
-			"completion": "settings.save( ${1:path} )"
+			"contents": "settings.save( ${1:path} )"
 		},
 		{
 			"trigger": "settings_clear()",
-			"completion": "settings.clear()"
+			"contents": "settings.clear()"
 		},
 		{
 			"trigger": "settings_getNames()",
-			"completion": "settings.getNames()"
+			"contents": "settings.getNames()"
 		}
 
   ]

@@ -4,31 +4,31 @@
   "completions": [
 			{
 			"trigger": "peripheral_getNames()",
-			"completion": "peripheral.getNames()"
+			"contents": "peripheral.getNames()"
 		},
 		{
 			"trigger": "peripheral_isPresent( name )",
-			"completion": "peripheral.isPresent( ${1:name} )"
+			"contents": "peripheral.isPresent( ${1:name} )"
 		},
 		{
 			"trigger": "peripheral_getType( name )",
-			"completion": "peripheral.getType( ${1:name} )"
+			"contents": "peripheral.getType( ${1:name} )"
 		},
 		{
 			"trigger": "peripheral_getMethods( name )",
-			"completion": "peripheral.getMethods( ${1:name} )"
+			"contents": "peripheral.getMethods( ${1:name} )"
 		},
 		{
 			"trigger": "peripheral_call( name, methodName, param1, param2, etc )",
-			"completion": "peripheral.call( ${1:name}, ${2:methodName}, ${3:param1}, ${4:param2}, ${5:etc} )"
+			"contents": "peripheral.call( ${1:name}, ${2:methodName}, ${3:param1}, ${4:param2}, ${5:etc} )"
 		},
 		{
 			"trigger": "peripheral_wrap( name )",
-			"completion": "peripheral.wrap( ${1:name} )"
+			"contents": "peripheral.wrap( ${1:name} )"
 		},
 		{
 			"trigger": "peripheral_find( type, [fnFilter] )",
-			"completion": "peripheral.find( ${1:type}, ${2:[fnFilter]} )"
+			"contents": "peripheral.find( ${1:type}, ${2:[fnFilter]} )"
 		}
 
   ]

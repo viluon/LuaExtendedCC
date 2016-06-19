@@ -4,71 +4,71 @@
   "completions": [
 			{
 			"trigger": "fs_list( path )",
-			"completion": "fs.list( ${1:path} )"
+			"contents": "fs.list( ${1:path} )"
 		},
 		{
 			"trigger": "fs_find( wildcard )",
-			"completion": "fs.find( ${1:wildcard} )"
+			"contents": "fs.find( ${1:wildcard} )"
 		},
 		{
 			"trigger": "fs_exists( path )",
-			"completion": "fs.exists( ${1:path} )"
+			"contents": "fs.exists( ${1:path} )"
 		},
 		{
 			"trigger": "fs_isDir( path )",
-			"completion": "fs.isDir( ${1:path} )"
+			"contents": "fs.isDir( ${1:path} )"
 		},
 		{
 			"trigger": "fs_isReadOnly( path )",
-			"completion": "fs.isReadOnly( ${1:path} )"
+			"contents": "fs.isReadOnly( ${1:path} )"
 		},
 		{
 			"trigger": "fs_getDir( path )",
-			"completion": "fs.getDir( ${1:path} )"
+			"contents": "fs.getDir( ${1:path} )"
 		},
 		{
 			"trigger": "fs_getName( path )",
-			"completion": "fs.getName( ${1:path} )"
+			"contents": "fs.getName( ${1:path} )"
 		},
 		{
 			"trigger": "fs_getSize( path )",
-			"completion": "fs.getSize( ${1:path} )"
+			"contents": "fs.getSize( ${1:path} )"
 		},
 		{
 			"trigger": "fs_getDrive( path )",
-			"completion": "fs.getDrive( ${1:path} )"
+			"contents": "fs.getDrive( ${1:path} )"
 		},
 		{
 			"trigger": "fs_getFreeSpace( path )",
-			"completion": "fs.getFreeSpace( ${1:path} )"
+			"contents": "fs.getFreeSpace( ${1:path} )"
 		},
 		{
 			"trigger": "fs_makeDir( path )",
-			"completion": "fs.makeDir( ${1:path} )"
+			"contents": "fs.makeDir( ${1:path} )"
 		},
 		{
 			"trigger": "fs_move( path, path )",
-			"completion": "fs.move( ${1:path}, ${2:path} )"
+			"contents": "fs.move( ${1:path}, ${2:path} )"
 		},
 		{
 			"trigger": "fs_copy( path, path )",
-			"completion": "fs.copy( ${1:path}, ${2:path} )"
+			"contents": "fs.copy( ${1:path}, ${2:path} )"
 		},
 		{
 			"trigger": "fs_delete( path )",
-			"completion": "fs.delete( ${1:path} )"
+			"contents": "fs.delete( ${1:path} )"
 		},
 		{
 			"trigger": "fs_combine( path, localpath )",
-			"completion": "fs.combine( ${1:path}, ${2:localpath} )"
+			"contents": "fs.combine( ${1:path}, ${2:localpath} )"
 		},
 		{
 			"trigger": "fs_open( path, mode )",
-			"completion": "fs.open( ${1:path}, ${2:mode} )"
+			"contents": "fs.open( ${1:path}, ${2:mode} )"
 		},
 		{
 			"trigger": "fs_complete( path, location )",
-			"completion": "fs.complete( ${1:path}, ${2:location} )"
+			"contents": "fs.complete( ${1:path}, ${2:location} )"
 		}
 
   ]

@@ -4,179 +4,179 @@
   "completions": [
 			{
 			"trigger": "turtle_forward()",
-			"completion": "turtle.forward()"
+			"contents": "turtle.forward()"
 		},
 		{
 			"trigger": "turtle_back()",
-			"completion": "turtle.back()"
+			"contents": "turtle.back()"
 		},
 		{
 			"trigger": "turtle_up()",
-			"completion": "turtle.up()"
+			"contents": "turtle.up()"
 		},
 		{
 			"trigger": "turtle_down()",
-			"completion": "turtle.down()"
+			"contents": "turtle.down()"
 		},
 		{
 			"trigger": "turtle_turnLeft()",
-			"completion": "turtle.turnLeft()"
+			"contents": "turtle.turnLeft()"
 		},
 		{
 			"trigger": "turtle_turnRight()",
-			"completion": "turtle.turnRight()"
+			"contents": "turtle.turnRight()"
 		},
 		{
 			"trigger": "turtle_select( slotNum )",
-			"completion": "turtle.select( ${1:slotNum} )"
+			"contents": "turtle.select( ${1:slotNum} )"
 		},
 		{
 			"trigger": "turtle_getSelectedSlot()",
-			"completion": "turtle.getSelectedSlot()"
+			"contents": "turtle.getSelectedSlot()"
 		},
 		{
 			"trigger": "turtle_getItemCount( [slotNum] )",
-			"completion": "turtle.getItemCount( ${1:[slotNum]} )"
+			"contents": "turtle.getItemCount( ${1:[slotNum]} )"
 		},
 		{
 			"trigger": "turtle_getItemSpace( [slotNum] )",
-			"completion": "turtle.getItemSpace( ${1:[slotNum]} )"
+			"contents": "turtle.getItemSpace( ${1:[slotNum]} )"
 		},
 		{
 			"trigger": "turtle_getItemDetail( [slotNum] )",
-			"completion": "turtle.getItemDetail( ${1:[slotNum]} )"
+			"contents": "turtle.getItemDetail( ${1:[slotNum]} )"
 		},
 		{
 			"trigger": "turtle_equipLeft()",
-			"completion": "turtle.equipLeft()"
+			"contents": "turtle.equipLeft()"
 		},
 		{
 			"trigger": "turtle_equipRight()",
-			"completion": "turtle.equipRight()"
+			"contents": "turtle.equipRight()"
 		},
 		{
 			"trigger": "turtle_dig( [toolSide] )",
-			"completion": "turtle.dig( ${1:[toolSide]} )"
+			"contents": "turtle.dig( ${1:[toolSide]} )"
 		},
 		{
 			"trigger": "turtle_digUp( [toolSide] )",
-			"completion": "turtle.digUp( ${1:[toolSide]} )"
+			"contents": "turtle.digUp( ${1:[toolSide]} )"
 		},
 		{
 			"trigger": "turtle_digDown( [toolSide] )",
-			"completion": "turtle.digDown( ${1:[toolSide]} )"
+			"contents": "turtle.digDown( ${1:[toolSide]} )"
 		},
 		{
 			"trigger": "turtle_place()",
-			"completion": "turtle.place()"
+			"contents": "turtle.place()"
 		},
 		{
 			"trigger": "turtle_placeUp()",
-			"completion": "turtle.placeUp()"
+			"contents": "turtle.placeUp()"
 		},
 		{
 			"trigger": "turtle_placeDown()",
-			"completion": "turtle.placeDown()"
+			"contents": "turtle.placeDown()"
 		},
 		{
 			"trigger": "turtle_attack( [toolSide] )",
-			"completion": "turtle.attack( ${1:[toolSide]} )"
+			"contents": "turtle.attack( ${1:[toolSide]} )"
 		},
 		{
 			"trigger": "turtle_attackUp( [toolSide] )",
-			"completion": "turtle.attackUp( ${1:[toolSide]} )"
+			"contents": "turtle.attackUp( ${1:[toolSide]} )"
 		},
 		{
 			"trigger": "turtle_attackDown( [toolSide] )",
-			"completion": "turtle.attackDown( ${1:[toolSide]} )"
+			"contents": "turtle.attackDown( ${1:[toolSide]} )"
 		},
 		{
 			"trigger": "turtle_detect()",
-			"completion": "turtle.detect()"
+			"contents": "turtle.detect()"
 		},
 		{
 			"trigger": "turtle_detectUp()",
-			"completion": "turtle.detectUp()"
+			"contents": "turtle.detectUp()"
 		},
 		{
 			"trigger": "turtle_detectDown()",
-			"completion": "turtle.detectDown()"
+			"contents": "turtle.detectDown()"
 		},
 		{
 			"trigger": "turtle_compare()",
-			"completion": "turtle.compare()"
+			"contents": "turtle.compare()"
 		},
 		{
 			"trigger": "turtle_compareUp()",
-			"completion": "turtle.compareUp()"
+			"contents": "turtle.compareUp()"
 		},
 		{
 			"trigger": "turtle_compareDown()",
-			"completion": "turtle.compareDown()"
+			"contents": "turtle.compareDown()"
 		},
 		{
 			"trigger": "turtle_inspect()",
-			"completion": "turtle.inspect()"
+			"contents": "turtle.inspect()"
 		},
 		{
 			"trigger": "turtle_inspectUp()",
-			"completion": "turtle.inspectUp()"
+			"contents": "turtle.inspectUp()"
 		},
 		{
 			"trigger": "turtle_inspectDown()",
-			"completion": "turtle.inspectDown()"
+			"contents": "turtle.inspectDown()"
 		},
 		{
 			"trigger": "turtle_inspectSlot( [slotNum] )",
-			"completion": "turtle.inspectSlot( ${1:[slotNum]} )"
+			"contents": "turtle.inspectSlot( ${1:[slotNum]} )"
 		},
 		{
 			"trigger": "turtle_compareTo( slotNum )",
-			"completion": "turtle.compareTo( ${1:slotNum} )"
+			"contents": "turtle.compareTo( ${1:slotNum} )"
 		},
 		{
 			"trigger": "turtle_transferTo( slotNum, [quantity] )",
-			"completion": "turtle.transferTo( ${1:slotNum}, ${2:[quantity]} )"
+			"contents": "turtle.transferTo( ${1:slotNum}, ${2:[quantity]} )"
 		},
 		{
 			"trigger": "turtle_drop( [quantity] )",
-			"completion": "turtle.drop( ${1:[quantity]} )"
+			"contents": "turtle.drop( ${1:[quantity]} )"
 		},
 		{
 			"trigger": "turtle_dropUp( [quantity] )",
-			"completion": "turtle.dropUp( ${1:[quantity]} )"
+			"contents": "turtle.dropUp( ${1:[quantity]} )"
 		},
 		{
 			"trigger": "turtle_dropDown( [quantity] )",
-			"completion": "turtle.dropDown( ${1:[quantity]} )"
+			"contents": "turtle.dropDown( ${1:[quantity]} )"
 		},
 		{
 			"trigger": "turtle_suck( [quantity] )",
-			"completion": "turtle.suck( ${1:[quantity]} )"
+			"contents": "turtle.suck( ${1:[quantity]} )"
 		},
 		{
 			"trigger": "turtle_suckUp( [quantity] )",
-			"completion": "turtle.suckUp( ${1:[quantity]} )"
+			"contents": "turtle.suckUp( ${1:[quantity]} )"
 		},
 		{
 			"trigger": "turtle_suckDown( [quantity] )",
-			"completion": "turtle.suckDown( ${1:[quantity]} )"
+			"contents": "turtle.suckDown( ${1:[quantity]} )"
 		},
 		{
 			"trigger": "turtle_getFuelLevel()",
-			"completion": "turtle.getFuelLevel()"
+			"contents": "turtle.getFuelLevel()"
 		},
 		{
 			"trigger": "turtle_getFuelLimit()",
-			"completion": "turtle.getFuelLimit()"
+			"contents": "turtle.getFuelLimit()"
 		},
 		{
 			"trigger": "turtle_refuel( [quantity] )",
-			"completion": "turtle.refuel( ${1:[quantity]} )"
+			"contents": "turtle.refuel( ${1:[quantity]} )"
 		},
 		{
 			"trigger": "turtle_craft( [quantity] )",
-			"completion": "turtle.craft( ${1:[quantity]} )"
+			"contents": "turtle.craft( ${1:[quantity]} )"
 		}
 
   ]

@@ -4,19 +4,19 @@
   "completions": [
 			{
 			"trigger": "http_checkURL( url )",
-			"completion": "http.checkURL( ${1:url} )"
+			"contents": "http.checkURL( ${1:url} )"
 		},
 		{
 			"trigger": "http_request( url, [postData], [headers] )",
-			"completion": "http.request( ${1:url}, ${2:[postData]}, ${3:[headers]} )"
+			"contents": "http.request( ${1:url}, ${2:[postData]}, ${3:[headers]} )"
 		},
 		{
 			"trigger": "http_get( url, [headers] )",
-			"completion": "http.get( ${1:url}, ${2:[headers]} )"
+			"contents": "http.get( ${1:url}, ${2:[headers]} )"
 		},
 		{
 			"trigger": "http_post( url, postData, [headers] )",
-			"completion": "http.post( ${1:url}, ${2:postData}, ${3:[headers]} )"
+			"contents": "http.post( ${1:url}, ${2:postData}, ${3:[headers]} )"
 		}
 
   ]

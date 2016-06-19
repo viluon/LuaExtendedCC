@@ -4,19 +4,19 @@
   "completions": [
 			{
 			"trigger": "help_setPath( path )",
-			"completion": "help.setPath( ${1:path} )"
+			"contents": "help.setPath( ${1:path} )"
 		},
 		{
 			"trigger": "help_lookup( topic )",
-			"completion": "help.lookup( ${1:topic} )"
+			"contents": "help.lookup( ${1:topic} )"
 		},
 		{
 			"trigger": "help_topics()",
-			"completion": "help.topics()"
+			"contents": "help.topics()"
 		},
 		{
 			"trigger": "help_completeTopic( topic )",
-			"completion": "help.completeTopic( ${1:topic} )"
+			"contents": "help.completeTopic( ${1:topic} )"
 		}
 
   ]
