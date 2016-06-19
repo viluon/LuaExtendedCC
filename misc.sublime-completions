@@ -1,0 +1,30 @@
+//Some more completions
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+  { "trigger": "assert( v, message )", "contents": "assert( ${1:v}, ${2:message} )" },
+  { "trigger": "dofile( filename )", "contents": "dofile( ${1:filename} )" },
+  { "trigger": "error( message, level )", "contents": "error( ${1:message}, ${2:level} )" },
+  { "trigger": "getmetatable( object )", "contents": "getmetatable( ${1:object} )" },
+  { "trigger": "ipairs( t )", "contents": "ipairs( ${1:t} )" },
+  { "trigger": "load( func, chunkname )", "contents": "load( ${1:func}, ${2:chunkname} )" },
+  { "trigger": "loadfile( filename )", "contents": "loadfile( ${1:filename} )" },
+  { "trigger": "loadstring( string, chunkname )", "contents": "loadstring( ${1:string}, ${2:chunkname} )" },
+  { "trigger": "next( table, index )", "contents": "next( ${1:table}, ${2:index} )" },
+  { "trigger": "pairs( t )", "contents": "pairs( ${1:t} )" },
+  { "trigger": "pcall( f, arg1, ... )", "contents": "pcall( ${1:f}, ${2:arg1}, ${3:...} )" },
+  { "trigger": "print( ... )", "contents": "print( ${1:...} )" },
+  { "trigger": "write( ... )", "contents": "print( ${1:...} )" },
+  { "trigger": "rawequal( v1, v2 )", "contents": "rawequal( ${1:v1}, ${2:v2} )" },
+  { "trigger": "rawget( table, index )", "contents": "rawget( ${1:table}, ${2:index} )" },
+  { "trigger": "rawset( table, index, value )", "contents": "rawset( ${1:table}, ${2:index}, ${3:value} )" },
+  { "trigger": "select( index, ... )", "contents": "select( ${1:index}, ${2:...} )" },
+  { "trigger": "setfenv( f, table )", "contents": "setfenv( ${1:f}, ${2:table} )" },
+  { "trigger": "setmetatable( table, metatable )", "contents": "setmetatable( ${1:table}, ${2:metatable} )" },
+  { "trigger": "tonumber( e, base )", "contents": "tonumber( ${1:e}, ${2:base} )" },
+  { "trigger": "tostring( e )", "contents": "tostring( ${1:e} )" },
+  { "trigger": "type( v )", "contents": "type( ${1:v} )" },
+  { "trigger": "unpack( list, i, j )", "contents": "unpack( ${1:list}, ${2:i}, ${3:j} )" },
+  { "trigger": "xpcall( f, err )", "contents": "xpcall( ${1:f}, ${2:err} )" },
+  ]
+}
