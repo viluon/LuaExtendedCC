@@ -1,0 +1,35 @@
+//Completions for the rs API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "rs_getSides( )",
+			"completion": "rs.getSides()"
+		},
+		{
+			"trigger": "rs_getInput( side )",
+			"completion": "rs.getInput( ${1:side} )"
+		},
+		{
+			"trigger": "rs_setOutput( side, boolean )",
+			"completion": "rs.setOutput( ${1:side}, ${2:boolean} )"
+		},
+		{
+			"trigger": "rs_getOutput( side )",
+			"completion": "rs.getOutput( ${1:side} )"
+		},
+		{
+			"trigger": "rs_getAnalogInput( side )",
+			"completion": "rs.getAnalogInput( ${1:side} )"
+		},
+		{
+			"trigger": "rs_setAnalogOutput( side, number )",
+			"completion": "rs.setAnalogOutput( ${1:side}, ${2:number} )"
+		},
+		{
+			"trigger": "rs_getAnalogOutput( side )",
+			"completion": "rs.getAnalogOutput( ${1:side} )"
+		}
+
+  ]
+}

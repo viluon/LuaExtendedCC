@@ -1,0 +1,79 @@
+//Completions for the shell API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "shell_exit()",
+			"completion": "shell.exit()"
+		},
+		{
+			"trigger": "shell_dir()",
+			"completion": "shell.dir()"
+		},
+		{
+			"trigger": "shell_setDir( path )",
+			"completion": "shell.setDir( ${1:path} )"
+		},
+		{
+			"trigger": "shell_path()",
+			"completion": "shell.path()"
+		},
+		{
+			"trigger": "shell_setPath( path )",
+			"completion": "shell.setPath( ${1:path} )"
+		},
+		{
+			"trigger": "shell_resolve( localpath )",
+			"completion": "shell.resolve( ${1:localpath} )"
+		},
+		{
+			"trigger": "shell_resolveProgram( name )",
+			"completion": "shell.resolveProgram( ${1:name} )"
+		},
+		{
+			"trigger": "shell_aliases()",
+			"completion": "shell.aliases()"
+		},
+		{
+			"trigger": "shell_setAlias( alias, command )",
+			"completion": "shell.setAlias( ${1:alias}, ${2:command} )"
+		},
+		{
+			"trigger": "shell_clearAlias( alias )",
+			"completion": "shell.clearAlias( ${1:alias} )"
+		},
+		{
+			"trigger": "shell_programs()",
+			"completion": "shell.programs()"
+		},
+		{
+			"trigger": "shell_run( program, arguments )",
+			"completion": "shell.run( ${1:program}, ${2:arguments} )"
+		},
+		{
+			"trigger": "shell_getRunningProgram()",
+			"completion": "shell.getRunningProgram()"
+		},
+		{
+			"trigger": "shell_complete( line )",
+			"completion": "shell.complete( ${1:line} )"
+		},
+		{
+			"trigger": "shell_completeProgram( program )",
+			"completion": "shell.completeProgram( ${1:program} )"
+		},
+		{
+			"trigger": "shell_setCompletionFunction( program, fnComplete )",
+			"completion": "shell.setCompletionFunction( ${1:program}, ${2:fnComplete} )"
+		},
+		{
+			"trigger": "shell_openTab( program, arguments )",
+			"completion": "shell.openTab( ${1:program}, ${2:arguments} )"
+		},
+		{
+			"trigger": "shell_switchTab( n )",
+			"completion": "shell.switchTab( ${1:n} )"
+		}
+
+  ]
+}

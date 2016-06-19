@@ -1,0 +1,83 @@
+//Completions for the os API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "os_version()",
+			"completion": "os.version()"
+		},
+		{
+			"trigger": "os_getComputerID()",
+			"completion": "os.getComputerID()"
+		},
+		{
+			"trigger": "os_getComputerLabel()",
+			"completion": "os.getComputerLabel()"
+		},
+		{
+			"trigger": "os_setComputerLabel()",
+			"completion": "os.setComputerLabel()"
+		},
+		{
+			"trigger": "os_run( environment, programpath, arguments )",
+			"completion": "os.run( ${1:environment}, ${2:programpath}, ${3:arguments} )"
+		},
+		{
+			"trigger": "os_loadAPI( path )",
+			"completion": "os.loadAPI( ${1:path} )"
+		},
+		{
+			"trigger": "os_unloadAPI( name )",
+			"completion": "os.unloadAPI( ${1:name} )"
+		},
+		{
+			"trigger": "os_pullEvent( [filter] )",
+			"completion": "os.pullEvent( ${1:[filter]} )"
+		},
+		{
+			"trigger": "os_queueEvent( event, arguments )",
+			"completion": "os.queueEvent( ${1:event}, ${2:arguments} )"
+		},
+		{
+			"trigger": "os_clock()",
+			"completion": "os.clock()"
+		},
+		{
+			"trigger": "os_startTimer( timeout )",
+			"completion": "os.startTimer( ${1:timeout} )"
+		},
+		{
+			"trigger": "os_cancelTimer( token )",
+			"completion": "os.cancelTimer( ${1:token} )"
+		},
+		{
+			"trigger": "os_sleep( timeout )",
+			"completion": "os.sleep( ${1:timeout} )"
+		},
+		{
+			"trigger": "os_time()",
+			"completion": "os.time()"
+		},
+		{
+			"trigger": "os_day()",
+			"completion": "os.day()"
+		},
+		{
+			"trigger": "os_setAlarm( time )",
+			"completion": "os.setAlarm( ${1:time} )"
+		},
+		{
+			"trigger": "os_cancelAlarm( token )",
+			"completion": "os.cancelAlarm( ${1:token} )"
+		},
+		{
+			"trigger": "os_shutdown()",
+			"completion": "os.shutdown()"
+		},
+		{
+			"trigger": "os_reboot()",
+			"completion": "os.reboot()"
+		}
+
+  ]
+}

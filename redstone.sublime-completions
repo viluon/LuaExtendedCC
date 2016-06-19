@@ -1,0 +1,35 @@
+//Completions for the redstone API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "redstone_getSides( )",
+			"completion": "redstone.getSides()"
+		},
+		{
+			"trigger": "redstone_getInput( side )",
+			"completion": "redstone.getInput( ${1:side} )"
+		},
+		{
+			"trigger": "redstone_setOutput( side, boolean )",
+			"completion": "redstone.setOutput( ${1:side}, ${2:boolean} )"
+		},
+		{
+			"trigger": "redstone_getOutput( side )",
+			"completion": "redstone.getOutput( ${1:side} )"
+		},
+		{
+			"trigger": "redstone_getAnalogInput( side )",
+			"completion": "redstone.getAnalogInput( ${1:side} )"
+		},
+		{
+			"trigger": "redstone_setAnalogOutput( side, number )",
+			"completion": "redstone.setAnalogOutput( ${1:side}, ${2:number} )"
+		},
+		{
+			"trigger": "redstone_getAnalogOutput( side )",
+			"completion": "redstone.getAnalogOutput( ${1:side} )"
+		}
+
+  ]
+}
