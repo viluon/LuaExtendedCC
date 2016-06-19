@@ -14,7 +14,7 @@
   { "trigger": "pairs( t )", "contents": "pairs( ${1:t} )" },
   { "trigger": "pcall( f, arg1, ... )", "contents": "pcall( ${1:f}, ${2:arg1}, ${3:...} )" },
   { "trigger": "print( ... )", "contents": "print( ${1:...} )" },
-  { "trigger": "write( ... )", "contents": "print( ${1:...} )" },
+  { "trigger": "write( ... )", "contents": "write( ${1:...} )" },
   { "trigger": "rawequal( v1, v2 )", "contents": "rawequal( ${1:v1}, ${2:v2} )" },
   { "trigger": "rawget( table, index )", "contents": "rawget( ${1:table}, ${2:index} )" },
   { "trigger": "rawset( table, index, value )", "contents": "rawset( ${1:table}, ${2:index}, ${3:value} )" },
