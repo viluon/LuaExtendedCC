@@ -1,5 +1,5 @@
 {
-	"scope" : "source.luae - string",
+	"scope" : "source.luaecc - string",
 	"completions":
 	[
 		"and",
