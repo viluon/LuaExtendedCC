@@ -1,14 +1,14 @@
 %YAML 1.2
 ---
 # http://www.sublimetext.com/docs/3/syntax.html
-name: LuaExtended # by viluon
-comment: "LuaExtended Syntax: version 0.1"
+name: LuaExtendedCC # by viluon
+comment: "LuaExtendedCC Syntax: version 0.1"
 file_extensions:
   - lua
   - luae
   - ext.lua
   - extended.lua
-scope: source.luae
+scope: source.luaecc
 variables:
   number: '(?<![\d.])\b0[xX][a-fA-F\d\.]+([pP][\-\+]?\d+)?|\b\d+(\.\d+)?([eE]-?\d+)?|\.\d+([eE]-?\d+)?'
 contexts:
