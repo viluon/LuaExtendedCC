@@ -1,0 +1,35 @@
+//Completions for the peripheral API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "peripheral_getNames()",
+			"contents": "peripheral.getNames()"
+		},
+		{
+			"trigger": "peripheral_isPresent( name )",
+			"contents": "peripheral.isPresent( ${1:name} )"
+		},
+		{
+			"trigger": "peripheral_getType( name )",
+			"contents": "peripheral.getType( ${1:name} )"
+		},
+		{
+			"trigger": "peripheral_getMethods( name )",
+			"contents": "peripheral.getMethods( ${1:name} )"
+		},
+		{
+			"trigger": "peripheral_call( name, methodName, param1, param2, etc )",
+			"contents": "peripheral.call( ${1:name}, ${2:methodName}, ${3:param1}, ${4:param2}, ${5:etc} )"
+		},
+		{
+			"trigger": "peripheral_wrap( name )",
+			"contents": "peripheral.wrap( ${1:name} )"
+		},
+		{
+			"trigger": "peripheral_find( type, [fnFilter] )",
+			"contents": "peripheral.find( ${1:type}, ${2:[fnFilter]} )"
+		}
+
+  ]
+}

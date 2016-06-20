@@ -1,0 +1,71 @@
+//Completions for the term API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "term_write( text )",
+			"contents": "term.write( ${1:text} )"
+		},
+		{
+			"trigger": "term_blit( text, textColor, backgroundColor )",
+			"contents": "term.blit( ${1:text}, ${2:textColor}, ${3:backgroundColor} )"
+		},
+		{
+			"trigger": "term_clear()",
+			"contents": "term.clear()"
+		},
+		{
+			"trigger": "term_clearLine()",
+			"contents": "term.clearLine()"
+		},
+		{
+			"trigger": "term_getCursorPos()",
+			"contents": "term.getCursorPos()"
+		},
+		{
+			"trigger": "term_setCursorPos( x, y )",
+			"contents": "term.setCursorPos( ${1:x}, ${2:y} )"
+		},
+		{
+			"trigger": "term_setCursorBlink( blink )",
+			"contents": "term.setCursorBlink( ${1:blink} )"
+		},
+		{
+			"trigger": "term_isColor()",
+			"contents": "term.isColor()"
+		},
+		{
+			"trigger": "term_setTextColor( color )",
+			"contents": "term.setTextColor( ${1:color} )"
+		},
+		{
+			"trigger": "term_setBackgroundColor( color )",
+			"contents": "term.setBackgroundColor( ${1:color} )"
+		},
+		{
+			"trigger": "term_getTextColor()",
+			"contents": "term.getTextColor()"
+		},
+		{
+			"trigger": "term_getBackgroundColor()",
+			"contents": "term.getBackgroundColor()"
+		},
+		{
+			"trigger": "term_getSize()",
+			"contents": "term.getSize()"
+		},
+		{
+			"trigger": "term_scroll( n )",
+			"contents": "term.scroll( ${1:n} )"
+		},
+		{
+			"trigger": "term_redirect( object )",
+			"contents": "term.redirect( ${1:object} )"
+		},
+		{
+			"trigger": "term_current()",
+			"contents": "term.current()"
+		}
+
+  ]
+}

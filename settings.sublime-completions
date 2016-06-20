@@ -1,0 +1,35 @@
+//Completions for the settings API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "settings_get( name, [default] )",
+			"contents": "settings.get( ${1:name}, ${2:[default]} )"
+		},
+		{
+			"trigger": "settings_set( name, value )",
+			"contents": "settings.set( ${1:name}, ${2:value} )"
+		},
+		{
+			"trigger": "settings_unset( name )",
+			"contents": "settings.unset( ${1:name} )"
+		},
+		{
+			"trigger": "settings_load( path )",
+			"contents": "settings.load( ${1:path} )"
+		},
+		{
+			"trigger": "settings_save( path )",
+			"contents": "settings.save( ${1:path} )"
+		},
+		{
+			"trigger": "settings_clear()",
+			"contents": "settings.clear()"
+		},
+		{
+			"trigger": "settings_getNames()",
+			"contents": "settings.getNames()"
+		}
+
+  ]
+}

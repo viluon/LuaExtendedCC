@@ -1,0 +1,183 @@
+//Completions for the turtle API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "turtle_forward()",
+			"contents": "turtle.forward()"
+		},
+		{
+			"trigger": "turtle_back()",
+			"contents": "turtle.back()"
+		},
+		{
+			"trigger": "turtle_up()",
+			"contents": "turtle.up()"
+		},
+		{
+			"trigger": "turtle_down()",
+			"contents": "turtle.down()"
+		},
+		{
+			"trigger": "turtle_turnLeft()",
+			"contents": "turtle.turnLeft()"
+		},
+		{
+			"trigger": "turtle_turnRight()",
+			"contents": "turtle.turnRight()"
+		},
+		{
+			"trigger": "turtle_select( slotNum )",
+			"contents": "turtle.select( ${1:slotNum} )"
+		},
+		{
+			"trigger": "turtle_getSelectedSlot()",
+			"contents": "turtle.getSelectedSlot()"
+		},
+		{
+			"trigger": "turtle_getItemCount( [slotNum] )",
+			"contents": "turtle.getItemCount( ${1:[slotNum]} )"
+		},
+		{
+			"trigger": "turtle_getItemSpace( [slotNum] )",
+			"contents": "turtle.getItemSpace( ${1:[slotNum]} )"
+		},
+		{
+			"trigger": "turtle_getItemDetail( [slotNum] )",
+			"contents": "turtle.getItemDetail( ${1:[slotNum]} )"
+		},
+		{
+			"trigger": "turtle_equipLeft()",
+			"contents": "turtle.equipLeft()"
+		},
+		{
+			"trigger": "turtle_equipRight()",
+			"contents": "turtle.equipRight()"
+		},
+		{
+			"trigger": "turtle_dig( [toolSide] )",
+			"contents": "turtle.dig( ${1:[toolSide]} )"
+		},
+		{
+			"trigger": "turtle_digUp( [toolSide] )",
+			"contents": "turtle.digUp( ${1:[toolSide]} )"
+		},
+		{
+			"trigger": "turtle_digDown( [toolSide] )",
+			"contents": "turtle.digDown( ${1:[toolSide]} )"
+		},
+		{
+			"trigger": "turtle_place()",
+			"contents": "turtle.place()"
+		},
+		{
+			"trigger": "turtle_placeUp()",
+			"contents": "turtle.placeUp()"
+		},
+		{
+			"trigger": "turtle_placeDown()",
+			"contents": "turtle.placeDown()"
+		},
+		{
+			"trigger": "turtle_attack( [toolSide] )",
+			"contents": "turtle.attack( ${1:[toolSide]} )"
+		},
+		{
+			"trigger": "turtle_attackUp( [toolSide] )",
+			"contents": "turtle.attackUp( ${1:[toolSide]} )"
+		},
+		{
+			"trigger": "turtle_attackDown( [toolSide] )",
+			"contents": "turtle.attackDown( ${1:[toolSide]} )"
+		},
+		{
+			"trigger": "turtle_detect()",
+			"contents": "turtle.detect()"
+		},
+		{
+			"trigger": "turtle_detectUp()",
+			"contents": "turtle.detectUp()"
+		},
+		{
+			"trigger": "turtle_detectDown()",
+			"contents": "turtle.detectDown()"
+		},
+		{
+			"trigger": "turtle_compare()",
+			"contents": "turtle.compare()"
+		},
+		{
+			"trigger": "turtle_compareUp()",
+			"contents": "turtle.compareUp()"
+		},
+		{
+			"trigger": "turtle_compareDown()",
+			"contents": "turtle.compareDown()"
+		},
+		{
+			"trigger": "turtle_inspect()",
+			"contents": "turtle.inspect()"
+		},
+		{
+			"trigger": "turtle_inspectUp()",
+			"contents": "turtle.inspectUp()"
+		},
+		{
+			"trigger": "turtle_inspectDown()",
+			"contents": "turtle.inspectDown()"
+		},
+		{
+			"trigger": "turtle_inspectSlot( [slotNum] )",
+			"contents": "turtle.inspectSlot( ${1:[slotNum]} )"
+		},
+		{
+			"trigger": "turtle_compareTo( slotNum )",
+			"contents": "turtle.compareTo( ${1:slotNum} )"
+		},
+		{
+			"trigger": "turtle_transferTo( slotNum, [quantity] )",
+			"contents": "turtle.transferTo( ${1:slotNum}, ${2:[quantity]} )"
+		},
+		{
+			"trigger": "turtle_drop( [quantity] )",
+			"contents": "turtle.drop( ${1:[quantity]} )"
+		},
+		{
+			"trigger": "turtle_dropUp( [quantity] )",
+			"contents": "turtle.dropUp( ${1:[quantity]} )"
+		},
+		{
+			"trigger": "turtle_dropDown( [quantity] )",
+			"contents": "turtle.dropDown( ${1:[quantity]} )"
+		},
+		{
+			"trigger": "turtle_suck( [quantity] )",
+			"contents": "turtle.suck( ${1:[quantity]} )"
+		},
+		{
+			"trigger": "turtle_suckUp( [quantity] )",
+			"contents": "turtle.suckUp( ${1:[quantity]} )"
+		},
+		{
+			"trigger": "turtle_suckDown( [quantity] )",
+			"contents": "turtle.suckDown( ${1:[quantity]} )"
+		},
+		{
+			"trigger": "turtle_getFuelLevel()",
+			"contents": "turtle.getFuelLevel()"
+		},
+		{
+			"trigger": "turtle_getFuelLimit()",
+			"contents": "turtle.getFuelLimit()"
+		},
+		{
+			"trigger": "turtle_refuel( [quantity] )",
+			"contents": "turtle.refuel( ${1:[quantity]} )"
+		},
+		{
+			"trigger": "turtle_craft( [quantity] )",
+			"contents": "turtle.craft( ${1:[quantity]} )"
+		}
+
+  ]
+}

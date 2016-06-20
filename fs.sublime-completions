@@ -1,0 +1,75 @@
+//Completions for the fs API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "fs_list( path )",
+			"contents": "fs.list( ${1:path} )"
+		},
+		{
+			"trigger": "fs_find( wildcard )",
+			"contents": "fs.find( ${1:wildcard} )"
+		},
+		{
+			"trigger": "fs_exists( path )",
+			"contents": "fs.exists( ${1:path} )"
+		},
+		{
+			"trigger": "fs_isDir( path )",
+			"contents": "fs.isDir( ${1:path} )"
+		},
+		{
+			"trigger": "fs_isReadOnly( path )",
+			"contents": "fs.isReadOnly( ${1:path} )"
+		},
+		{
+			"trigger": "fs_getDir( path )",
+			"contents": "fs.getDir( ${1:path} )"
+		},
+		{
+			"trigger": "fs_getName( path )",
+			"contents": "fs.getName( ${1:path} )"
+		},
+		{
+			"trigger": "fs_getSize( path )",
+			"contents": "fs.getSize( ${1:path} )"
+		},
+		{
+			"trigger": "fs_getDrive( path )",
+			"contents": "fs.getDrive( ${1:path} )"
+		},
+		{
+			"trigger": "fs_getFreeSpace( path )",
+			"contents": "fs.getFreeSpace( ${1:path} )"
+		},
+		{
+			"trigger": "fs_makeDir( path )",
+			"contents": "fs.makeDir( ${1:path} )"
+		},
+		{
+			"trigger": "fs_move( path, path )",
+			"contents": "fs.move( ${1:path}, ${2:path} )"
+		},
+		{
+			"trigger": "fs_copy( path, path )",
+			"contents": "fs.copy( ${1:path}, ${2:path} )"
+		},
+		{
+			"trigger": "fs_delete( path )",
+			"contents": "fs.delete( ${1:path} )"
+		},
+		{
+			"trigger": "fs_combine( path, localpath )",
+			"contents": "fs.combine( ${1:path}, ${2:localpath} )"
+		},
+		{
+			"trigger": "fs_open( path, mode )",
+			"contents": "fs.open( ${1:path}, ${2:mode} )"
+		},
+		{
+			"trigger": "fs_complete( path, location )",
+			"contents": "fs.complete( ${1:path}, ${2:location} )"
+		}
+
+  ]
+}

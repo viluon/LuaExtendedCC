@@ -1,0 +1,23 @@
+//Completions for the help API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "help_setPath( path )",
+			"contents": "help.setPath( ${1:path} )"
+		},
+		{
+			"trigger": "help_lookup( topic )",
+			"contents": "help.lookup( ${1:topic} )"
+		},
+		{
+			"trigger": "help_topics()",
+			"contents": "help.topics()"
+		},
+		{
+			"trigger": "help_completeTopic( topic )",
+			"contents": "help.completeTopic( ${1:topic} )"
+		}
+
+  ]
+}

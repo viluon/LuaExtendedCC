@@ -1,0 +1,23 @@
+//Completions for the http API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "http_checkURL( url )",
+			"contents": "http.checkURL( ${1:url} )"
+		},
+		{
+			"trigger": "http_request( url, [postData], [headers] )",
+			"contents": "http.request( ${1:url}, ${2:[postData]}, ${3:[headers]} )"
+		},
+		{
+			"trigger": "http_get( url, [headers] )",
+			"contents": "http.get( ${1:url}, ${2:[headers]} )"
+		},
+		{
+			"trigger": "http_post( url, postData, [headers] )",
+			"contents": "http.post( ${1:url}, ${2:postData}, ${3:[headers]} )"
+		}
+
+  ]
+}

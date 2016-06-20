@@ -1,0 +1,79 @@
+//Completions for the shell API
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+			{
+			"trigger": "shell_exit()",
+			"contents": "shell.exit()"
+		},
+		{
+			"trigger": "shell_dir()",
+			"contents": "shell.dir()"
+		},
+		{
+			"trigger": "shell_setDir( path )",
+			"contents": "shell.setDir( ${1:path} )"
+		},
+		{
+			"trigger": "shell_path()",
+			"contents": "shell.path()"
+		},
+		{
+			"trigger": "shell_setPath( path )",
+			"contents": "shell.setPath( ${1:path} )"
+		},
+		{
+			"trigger": "shell_resolve( localpath )",
+			"contents": "shell.resolve( ${1:localpath} )"
+		},
+		{
+			"trigger": "shell_resolveProgram( name )",
+			"contents": "shell.resolveProgram( ${1:name} )"
+		},
+		{
+			"trigger": "shell_aliases()",
+			"contents": "shell.aliases()"
+		},
+		{
+			"trigger": "shell_setAlias( alias, command )",
+			"contents": "shell.setAlias( ${1:alias}, ${2:command} )"
+		},
+		{
+			"trigger": "shell_clearAlias( alias )",
+			"contents": "shell.clearAlias( ${1:alias} )"
+		},
+		{
+			"trigger": "shell_programs()",
+			"contents": "shell.programs()"
+		},
+		{
+			"trigger": "shell_run( program, arguments )",
+			"contents": "shell.run( ${1:program}, ${2:arguments} )"
+		},
+		{
+			"trigger": "shell_getRunningProgram()",
+			"contents": "shell.getRunningProgram()"
+		},
+		{
+			"trigger": "shell_complete( line )",
+			"contents": "shell.complete( ${1:line} )"
+		},
+		{
+			"trigger": "shell_completeProgram( program )",
+			"contents": "shell.completeProgram( ${1:program} )"
+		},
+		{
+			"trigger": "shell_setCompletionFunction( program, fnComplete )",
+			"contents": "shell.setCompletionFunction( ${1:program}, ${2:fnComplete} )"
+		},
+		{
+			"trigger": "shell_openTab( program, arguments )",
+			"contents": "shell.openTab( ${1:program}, ${2:arguments} )"
+		},
+		{
+			"trigger": "shell_switchTab( n )",
+			"contents": "shell.switchTab( ${1:n} )"
+		}
+
+  ]
+}
