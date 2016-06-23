@@ -1,7 +1,7 @@
 //Completions for the shell API:
 {
-  "scope": "source.luaecc - string",
-  "completions": [
+	"scope": "source.luaecc - string",
+	"completions": [
 		{ "trigger": "shell.exit()", "contents": "shell.exit()" },
 		{ "trigger": "shell.dir()", "contents": "shell.dir()" },
 		{ "trigger": "shell.setDir( path )", "contents": "shell.setDir( ${1:path} )" },
@@ -20,5 +20,5 @@
 		{ "trigger": "shell.setCompletionFunction( program, fnComplete )", "contents": "shell.setCompletionFunction( ${1:program}, ${2:fnComplete} )" },
 		{ "trigger": "shell.openTab( program, arguments )", "contents": "shell.openTab( ${1:program}, ${2:arguments} )" },
 		{ "trigger": "shell.switchTab( n )", "contents": "shell.switchTab( ${1:n} )" }
-   ]
+	]
 }

@@ -1,7 +1,13 @@
-//Completions for the bit32 library:
+//Completions for the bit API:
 {
 	"scope": "source.luaecc - string",
 	"completions": [
+		{ "trigger": "bit.bnot(n)", "contents": "bit.bnot( ${1:n} )" },
+		{ "trigger": "bit.band(m, n)", "contents": "bit.band( ${1:m}, ${2:n} )" },
+		{ "trigger": "bit.bor(m, n)", "contents": "bit.bor( ${1:m}, ${2:n} )" },
+		{ "trigger": "bit.bxor(m, n)", "contents": "bit.bxor( ${1:m}, ${2:n} )" },
+		{ "trigger": "bit.brshift(n, bits)", "contents": "bit.brshift( ${1:n}, ${2:bits} )" },
+		{ "trigger": "bit.blshift(n, bits)", "contents": "bit.blshift( ${1:n}, ${2:bits} )" },
 		{ "trigger": "bit32.bxor( ... )", "contents": "bit32.bxor( ${1:...} )" },
 		{ "trigger": "bit32.bor( ... )", "contents": "bit32.bor( ${1:...} )" },
 		{ "trigger": "bit32.lshift( ... )", "contents": "bit32.lshift( ${1:...} )" },

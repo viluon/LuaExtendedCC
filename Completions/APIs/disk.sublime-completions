@@ -2,16 +2,16 @@
 {
 	"scope": "source.luaecc - string",
 	"completions": [
-		{ "trigger": "disk.setLabel( ... )", "contents": "disk.setLabel( ${1:...} )" },
-		{ "trigger": "disk.getLabel( ... )", "contents": "disk.getLabel( ${1:...} )" },
-		{ "trigger": "disk.hasAudio( ... )", "contents": "disk.hasAudio( ${1:...} )" },
-		{ "trigger": "disk.eject( ... )", "contents": "disk.eject( ${1:...} )" },
-		{ "trigger": "disk.hasData( ... )", "contents": "disk.hasData( ${1:...} )" },
-		{ "trigger": "disk.playAudio( ... )", "contents": "disk.playAudio( ${1:...} )" },
-		{ "trigger": "disk.getAudioTitle( ... )", "contents": "disk.getAudioTitle( ${1:...} )" },
-		{ "trigger": "disk.isPresent( ... )", "contents": "disk.isPresent( ${1:...} )" },
-		{ "trigger": "disk.getID( ... )", "contents": "disk.getID( ${1:...} )" },
-		{ "trigger": "disk.stopAudio( ... )", "contents": "disk.stopAudio( ${1:...} )" },
-		{ "trigger": "disk.getMountPath( ... )", "contents": "disk.getMountPath( ${1:...} )" }
+		{ "trigger": "disk.isPresent( drive )", "contents": "disk.isPresent( ${1:drive} )" },
+		{ "trigger": "disk.setLabel( drive, label )", "contents": "disk.setLabel( ${1:drive}, ${2:label} )" },
+		{ "trigger": "disk.getLabel( drive )", "contents": "disk.getLabel( ${1:drive} )" },
+		{ "trigger": "disk.hasData( drive )", "contents": "disk.hasData( ${1:drive} )" },
+		{ "trigger": "disk.getMountPath( drive )", "contents": "disk.getMountPath( ${1:drive} )" },
+		{ "trigger": "disk.hasAudio( drive )", "contents": "disk.hasAudio( ${1:drive} )" },
+		{ "trigger": "disk.getAudioTitle( drive )", "contents": "disk.getAudioTitle( ${1:drive} )" },
+		{ "trigger": "disk.playAudio( drive )", "contents": "disk.playAudio( ${1:drive} )" },
+		{ "trigger": "disk.stopAudio( )", "contents": "disk.stopAudio()" },
+		{ "trigger": "disk.eject( drive )", "contents": "disk.eject( ${1:drive} )" },
+		{ "trigger": "disk.getID( drive )", "contents": "disk.getID( ${1:drive} )" }
 	]
 }

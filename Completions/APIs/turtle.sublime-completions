@@ -1,7 +1,7 @@
 //Completions for the turtle API:
 {
-  "scope": "source.luaecc - string",
-  "completions": [
+	"scope": "source.luaecc - string",
+	"completions": [
 		{ "trigger": "turtle.forward()", "contents": "turtle.forward()" },
 		{ "trigger": "turtle.back()", "contents": "turtle.back()" },
 		{ "trigger": "turtle.up()", "contents": "turtle.up()" },
@@ -46,5 +46,5 @@
 		{ "trigger": "turtle.getFuelLimit()", "contents": "turtle.getFuelLimit()" },
 		{ "trigger": "turtle.refuel( [quantity] )", "contents": "turtle.refuel( ${1:[quantity]} )" },
 		{ "trigger": "turtle.craft( [quantity] )", "contents": "turtle.craft( ${1:[quantity]} )" }
-   ]
+	]
 }

@@ -1,12 +1,12 @@
 //Completions for the paintutils API:
 {
-  "scope": "source.luaecc - string",
-  "completions": [
+	"scope": "source.luaecc - string",
+	"completions": [
 		{ "trigger": "paintutils.drawPixel( x, y, colour )", "contents": "paintutils.drawPixel( ${1:x}, ${2:y}, ${3:colour} )" },
 		{ "trigger": "paintutils.drawLine( startX, startY, endX, endY, colour )", "contents": "paintutils.drawLine( ${1:startX}, ${2:startY}, ${3:endX}, ${4:endY}, ${5:colour} )" },
 		{ "trigger": "paintutils.drawBox( startX, startY, endX, endY, colour )", "contents": "paintutils.drawBox( ${1:startX}, ${2:startY}, ${3:endX}, ${4:endY}, ${5:colour} )" },
 		{ "trigger": "paintutils.drawFilledBox( startX, startY, endX, endY, colour )", "contents": "paintutils.drawFilledBox( ${1:startX}, ${2:startY}, ${3:endX}, ${4:endY}, ${5:colour} )" },
 		{ "trigger": "paintutils.loadImage( path )", "contents": "paintutils.loadImage( ${1:path} )" },
 		{ "trigger": "paintutils.drawImage( image, x, y )", "contents": "paintutils.drawImage( ${1:image}, ${2:x}, ${3:y} )" }
-   ]
+	]
 }

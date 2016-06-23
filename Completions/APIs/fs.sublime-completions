@@ -1,7 +1,7 @@
 //Completions for the fs API:
 {
-  "scope": "source.luaecc - string",
-  "completions": [
+	"scope": "source.luaecc - string",
+	"completions": [
 		{ "trigger": "fs.list( path )", "contents": "fs.list( ${1:path} )" },
 		{ "trigger": "fs.find( wildcard )", "contents": "fs.find( ${1:wildcard} )" },
 		{ "trigger": "fs.exists( path )", "contents": "fs.exists( ${1:path} )" },
@@ -19,5 +19,5 @@
 		{ "trigger": "fs.combine( path, localpath )", "contents": "fs.combine( ${1:path}, ${2:localpath} )" },
 		{ "trigger": "fs.open( path, mode )", "contents": "fs.open( ${1:path}, ${2:mode} )" },
 		{ "trigger": "fs.complete( path, location )", "contents": "fs.complete( ${1:path}, ${2:location} )" }
-   ]
+	]
 }

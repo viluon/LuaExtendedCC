@@ -1,7 +1,7 @@
 //Completions for the window API:
 {
-  "scope": "source.luaecc - string",
-  "completions": [
+	"scope": "source.luaecc - string",
+	"completions": [
 		{ "trigger": "window.create( parent, x, y, width, height, visible )", "contents": "window.create( ${1:parent}, ${2:x}, ${3:y}, ${4:width}, ${5:height}, ${6:visible} )" }
-   ]
+	]
 }

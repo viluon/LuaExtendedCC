@@ -1,7 +1,7 @@
 //Completions for the os API:
 {
-  "scope": "source.luaecc - string",
-  "completions": [
+	"scope": "source.luaecc - string",
+	"completions": [
 		{ "trigger": "os.version()", "contents": "os.version()" },
 		{ "trigger": "os.getComputerID()", "contents": "os.getComputerID()" },
 		{ "trigger": "os.getComputerLabel()", "contents": "os.getComputerLabel()" },
@@ -21,5 +21,5 @@
 		{ "trigger": "os.cancelAlarm( token )", "contents": "os.cancelAlarm( ${1:token} )" },
 		{ "trigger": "os.shutdown()", "contents": "os.shutdown()" },
 		{ "trigger": "os.reboot()", "contents": "os.reboot()" }
-   ]
+	]
 }

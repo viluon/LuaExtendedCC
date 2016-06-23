@@ -1,7 +1,7 @@
 //Completions for the term API:
 {
-  "scope": "source.luaecc - string",
-  "completions": [
+	"scope": "source.luaecc - string",
+	"completions": [
 		{ "trigger": "term.write( text )", "contents": "term.write( ${1:text} )" },
 		{ "trigger": "term.blit( text, textColor, backgroundColor )", "contents": "term.blit( ${1:text}, ${2:textColor}, ${3:backgroundColor} )" },
 		{ "trigger": "term.clear()", "contents": "term.clear()" },
@@ -18,5 +18,5 @@
 		{ "trigger": "term.scroll( n )", "contents": "term.scroll( ${1:n} )" },
 		{ "trigger": "term.redirect( object )", "contents": "term.redirect( ${1:object} )" },
 		{ "trigger": "term.current()", "contents": "term.current()" }
-   ]
+	]
 }

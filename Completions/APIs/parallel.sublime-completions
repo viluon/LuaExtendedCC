@@ -1,8 +1,8 @@
 //Completions for the parallel API:
 {
-  "scope": "source.luaecc - string",
-  "completions": [
+	"scope": "source.luaecc - string",
+	"completions": [
 		{ "trigger": "parallel.waitForAny( function1, function2, ... )", "contents": "parallel.waitForAny( ${1:function1}, ${2:function2}, ${3:...} )" },
 		{ "trigger": "parallel.waitForAll( function1, function2, ... )", "contents": "parallel.waitForAll( ${1:function1}, ${2:function2}, ${3:...} )" }
-   ]
+	]
 }
