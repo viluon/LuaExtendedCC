@@ -1,30 +1,12 @@
-//Completions for the commands API
+//Completions for the commands API:
 {
   "scope": "source.luaecc - string",
   "completions": [
-		{
-			"trigger": "commands.exec( command )",
-			"contents": "commands.exec( ${1:command} )"
-		},
-		{
-			"trigger": "commands.execAsync( command )",
-			"contents": "commands.execAsync( ${1:command} )"
-		},
-		{
-			"trigger": "commands.list()",
-			"contents": "commands.list()"
-		},
-		{
-			"trigger": "commands.getBlockPosition()",
-			"contents": "commands.getBlockPosition()"
-		},
-		{
-			"trigger": "commands.getBlockInfo( x, y, z )",
-			"contents": "commands.getBlockInfo( ${1:x}, ${2:y}, ${3:z} )"
-		},
-		{
-			"trigger": "commands.getBlockInfos( minx, miny, minz, maxx, maxy, maxz )",
-			"contents": "commands.getBlockInfos( ${1:minx}, ${2:miny}, ${3:minz}, ${4:maxx}, ${5:maxy}, ${6:maxz} )"
-		}
+		{ "trigger": "commands.exec( command )", "contents": "commands.exec( ${1:command} )" },
+		{ "trigger": "commands.execAsync( command )", "contents": "commands.execAsync( ${1:command} )" },
+		{ "trigger": "commands.list()", "contents": "commands.list()" },
+		{ "trigger": "commands.getBlockPosition()", "contents": "commands.getBlockPosition()" },
+		{ "trigger": "commands.getBlockInfo( x, y, z )", "contents": "commands.getBlockInfo( ${1:x}, ${2:y}, ${3:z} )" },
+		{ "trigger": "commands.getBlockInfos( minx, miny, minz, maxx, maxy, maxz )", "contents": "commands.getBlockInfos( ${1:minx}, ${2:miny}, ${3:minz}, ${4:maxx}, ${5:maxy}, ${6:maxz} )" }
    ]
 }

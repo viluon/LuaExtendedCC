@@ -1,0 +1,15 @@
+//Completions for the io library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "io.input( ... )", "contents": "io.input( ${1:...} )" },
+		{ "trigger": "io.output( ... )", "contents": "io.output( ${1:...} )" },
+		{ "trigger": "io.type( ... )", "contents": "io.type( ${1:...} )" },
+		{ "trigger": "io.close( ... )", "contents": "io.close( ${1:...} )" },
+		{ "trigger": "io.write( ... )", "contents": "io.write( ${1:...} )" },
+		{ "trigger": "io.flush( ... )", "contents": "io.flush( ${1:...} )" },
+		{ "trigger": "io.lines( ... )", "contents": "io.lines( ${1:...} )" },
+		{ "trigger": "io.read( ... )", "contents": "io.read( ${1:...} )" },
+		{ "trigger": "io.open( ... )", "contents": "io.open( ${1:...} )" }
+	]
+}

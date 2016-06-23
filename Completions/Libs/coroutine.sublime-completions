@@ -1,0 +1,12 @@
+//Completions for the coroutine library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "coroutine.status( ... )", "contents": "coroutine.status( ${1:...} )" },
+		{ "trigger": "coroutine.resume( ... )", "contents": "coroutine.resume( ${1:...} )" },
+		{ "trigger": "coroutine.create( ... )", "contents": "coroutine.create( ${1:...} )" },
+		{ "trigger": "coroutine.yield( ... )", "contents": "coroutine.yield( ${1:...} )" },
+		{ "trigger": "coroutine.wrap( ... )", "contents": "coroutine.wrap( ${1:...} )" },
+		{ "trigger": "coroutine.running( ... )", "contents": "coroutine.running( ${1:...} )" },
+	]
+}

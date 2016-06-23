@@ -1,0 +1,16 @@
+//Completions for the table library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "table.sort( ... )", "contents": "table.sort( ${1:...} )" },
+		{ "trigger": "table.pack( ... )", "contents": "table.pack( ${1:...} )" },
+		{ "trigger": "table.foreachi( ... )", "contents": "table.foreachi( ${1:...} )" },
+		{ "trigger": "table.foreach( ... )", "contents": "table.foreach( ${1:...} )" },
+		{ "trigger": "table.getn( ... )", "contents": "table.getn( ${1:...} )" },
+		{ "trigger": "table.remove( ... )", "contents": "table.remove( ${1:...} )" },
+		{ "trigger": "table.insert( ... )", "contents": "table.insert( ${1:...} )" },
+		{ "trigger": "table.unpack( ... )", "contents": "table.unpack( ${1:...} )" },
+		{ "trigger": "table.maxn( ... )", "contents": "table.maxn( ${1:...} )" },
+		{ "trigger": "table.concat( ... )", "contents": "table.concat( ${1:...} )" }
+	]
+}

@@ -1,74 +1,23 @@
-//Completions for the fs API
+//Completions for the fs API:
 {
   "scope": "source.luaecc - string",
   "completions": [
-		{
-			"trigger": "fs.list( path )",
-			"contents": "fs.list( ${1:path} )"
-		},
-		{
-			"trigger": "fs.find( wildcard )",
-			"contents": "fs.find( ${1:wildcard} )"
-		},
-		{
-			"trigger": "fs.exists( path )",
-			"contents": "fs.exists( ${1:path} )"
-		},
-		{
-			"trigger": "fs.isDir( path )",
-			"contents": "fs.isDir( ${1:path} )"
-		},
-		{
-			"trigger": "fs.isReadOnly( path )",
-			"contents": "fs.isReadOnly( ${1:path} )"
-		},
-		{
-			"trigger": "fs.getDir( path )",
-			"contents": "fs.getDir( ${1:path} )"
-		},
-		{
-			"trigger": "fs.getName( path )",
-			"contents": "fs.getName( ${1:path} )"
-		},
-		{
-			"trigger": "fs.getSize( path )",
-			"contents": "fs.getSize( ${1:path} )"
-		},
-		{
-			"trigger": "fs.getDrive( path )",
-			"contents": "fs.getDrive( ${1:path} )"
-		},
-		{
-			"trigger": "fs.getFreeSpace( path )",
-			"contents": "fs.getFreeSpace( ${1:path} )"
-		},
-		{
-			"trigger": "fs.makeDir( path )",
-			"contents": "fs.makeDir( ${1:path} )"
-		},
-		{
-			"trigger": "fs.move( path, path )",
-			"contents": "fs.move( ${1:path}, ${2:path} )"
-		},
-		{
-			"trigger": "fs.copy( path, path )",
-			"contents": "fs.copy( ${1:path}, ${2:path} )"
-		},
-		{
-			"trigger": "fs.delete( path )",
-			"contents": "fs.delete( ${1:path} )"
-		},
-		{
-			"trigger": "fs.combine( path, localpath )",
-			"contents": "fs.combine( ${1:path}, ${2:localpath} )"
-		},
-		{
-			"trigger": "fs.open( path, mode )",
-			"contents": "fs.open( ${1:path}, ${2:mode} )"
-		},
-		{
-			"trigger": "fs.complete( path, location )",
-			"contents": "fs.complete( ${1:path}, ${2:location} )"
-		}
+		{ "trigger": "fs.list( path )", "contents": "fs.list( ${1:path} )" },
+		{ "trigger": "fs.find( wildcard )", "contents": "fs.find( ${1:wildcard} )" },
+		{ "trigger": "fs.exists( path )", "contents": "fs.exists( ${1:path} )" },
+		{ "trigger": "fs.isDir( path )", "contents": "fs.isDir( ${1:path} )" },
+		{ "trigger": "fs.isReadOnly( path )", "contents": "fs.isReadOnly( ${1:path} )" },
+		{ "trigger": "fs.getDir( path )", "contents": "fs.getDir( ${1:path} )" },
+		{ "trigger": "fs.getName( path )", "contents": "fs.getName( ${1:path} )" },
+		{ "trigger": "fs.getSize( path )", "contents": "fs.getSize( ${1:path} )" },
+		{ "trigger": "fs.getDrive( path )", "contents": "fs.getDrive( ${1:path} )" },
+		{ "trigger": "fs.getFreeSpace( path )", "contents": "fs.getFreeSpace( ${1:path} )" },
+		{ "trigger": "fs.makeDir( path )", "contents": "fs.makeDir( ${1:path} )" },
+		{ "trigger": "fs.move( path, path )", "contents": "fs.move( ${1:path}, ${2:path} )" },
+		{ "trigger": "fs.copy( path, path )", "contents": "fs.copy( ${1:path}, ${2:path} )" },
+		{ "trigger": "fs.delete( path )", "contents": "fs.delete( ${1:path} )" },
+		{ "trigger": "fs.combine( path, localpath )", "contents": "fs.combine( ${1:path}, ${2:localpath} )" },
+		{ "trigger": "fs.open( path, mode )", "contents": "fs.open( ${1:path}, ${2:mode} )" },
+		{ "trigger": "fs.complete( path, location )", "contents": "fs.complete( ${1:path}, ${2:location} )" }
    ]
 }

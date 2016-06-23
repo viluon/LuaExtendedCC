@@ -1,70 +1,22 @@
-//Completions for the term API
+//Completions for the term API:
 {
   "scope": "source.luaecc - string",
   "completions": [
-		{
-			"trigger": "term.write( text )",
-			"contents": "term.write( ${1:text} )"
-		},
-		{
-			"trigger": "term.blit( text, textColor, backgroundColor )",
-			"contents": "term.blit( ${1:text}, ${2:textColor}, ${3:backgroundColor} )"
-		},
-		{
-			"trigger": "term.clear()",
-			"contents": "term.clear()"
-		},
-		{
-			"trigger": "term.clearLine()",
-			"contents": "term.clearLine()"
-		},
-		{
-			"trigger": "term.getCursorPos()",
-			"contents": "term.getCursorPos()"
-		},
-		{
-			"trigger": "term.setCursorPos( x, y )",
-			"contents": "term.setCursorPos( ${1:x}, ${2:y} )"
-		},
-		{
-			"trigger": "term.setCursorBlink( blink )",
-			"contents": "term.setCursorBlink( ${1:blink} )"
-		},
-		{
-			"trigger": "term.isColor()",
-			"contents": "term.isColor()"
-		},
-		{
-			"trigger": "term.setTextColor( color )",
-			"contents": "term.setTextColor( ${1:color} )"
-		},
-		{
-			"trigger": "term.setBackgroundColor( color )",
-			"contents": "term.setBackgroundColor( ${1:color} )"
-		},
-		{
-			"trigger": "term.getTextColor()",
-			"contents": "term.getTextColor()"
-		},
-		{
-			"trigger": "term.getBackgroundColor()",
-			"contents": "term.getBackgroundColor()"
-		},
-		{
-			"trigger": "term.getSize()",
-			"contents": "term.getSize()"
-		},
-		{
-			"trigger": "term.scroll( n )",
-			"contents": "term.scroll( ${1:n} )"
-		},
-		{
-			"trigger": "term.redirect( object )",
-			"contents": "term.redirect( ${1:object} )"
-		},
-		{
-			"trigger": "term.current()",
-			"contents": "term.current()"
-		}
+		{ "trigger": "term.write( text )", "contents": "term.write( ${1:text} )" },
+		{ "trigger": "term.blit( text, textColor, backgroundColor )", "contents": "term.blit( ${1:text}, ${2:textColor}, ${3:backgroundColor} )" },
+		{ "trigger": "term.clear()", "contents": "term.clear()" },
+		{ "trigger": "term.clearLine()", "contents": "term.clearLine()" },
+		{ "trigger": "term.getCursorPos()", "contents": "term.getCursorPos()" },
+		{ "trigger": "term.setCursorPos( x, y )", "contents": "term.setCursorPos( ${1:x}, ${2:y} )" },
+		{ "trigger": "term.setCursorBlink( blink )", "contents": "term.setCursorBlink( ${1:blink} )" },
+		{ "trigger": "term.isColor()", "contents": "term.isColor()" },
+		{ "trigger": "term.setTextColor( color )", "contents": "term.setTextColor( ${1:color} )" },
+		{ "trigger": "term.setBackgroundColor( color )", "contents": "term.setBackgroundColor( ${1:color} )" },
+		{ "trigger": "term.getTextColor()", "contents": "term.getTextColor()" },
+		{ "trigger": "term.getBackgroundColor()", "contents": "term.getBackgroundColor()" },
+		{ "trigger": "term.getSize()", "contents": "term.getSize()" },
+		{ "trigger": "term.scroll( n )", "contents": "term.scroll( ${1:n} )" },
+		{ "trigger": "term.redirect( object )", "contents": "term.redirect( ${1:object} )" },
+		{ "trigger": "term.current()", "contents": "term.current()" }
    ]
 }

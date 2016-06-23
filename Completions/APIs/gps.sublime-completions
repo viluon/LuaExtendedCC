@@ -1,10 +1,7 @@
-//Completions for the gps API
+//Completions for the gps API:
 {
   "scope": "source.luaecc - string",
   "completions": [
-		{
-			"trigger": "gps.locate( timeout )",
-			"contents": "gps.locate( ${1:timeout} )"
-		}
+		{ "trigger": "gps.locate( timeout )", "contents": "gps.locate( ${1:timeout} )" }
    ]
 }

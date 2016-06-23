@@ -1,0 +1,34 @@
+//Completions for the math library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "math.deg( ... )", "contents": "math.deg( ${1:...} )" },
+		{ "trigger": "math.fmod( ... )", "contents": "math.fmod( ${1:...} )" },
+		{ "trigger": "math.random( ... )", "contents": "math.random( ${1:...} )" },
+		{ "trigger": "math.asin( ... )", "contents": "math.asin( ${1:...} )" },
+		{ "trigger": "math.max( ... )", "contents": "math.max( ${1:...} )" },
+		{ "trigger": "math.modf( ... )", "contents": "math.modf( ${1:...} )" },
+		{ "trigger": "math.log10( ... )", "contents": "math.log10( ${1:...} )" },
+		{ "trigger": "math.floor( ... )", "contents": "math.floor( ${1:...} )" },
+		{ "trigger": "math.cosh( ... )", "contents": "math.cosh( ${1:...} )" },
+		{ "trigger": "math.ldexp( ... )", "contents": "math.ldexp( ${1:...} )" },
+		{ "trigger": "math.log( ... )", "contents": "math.log( ${1:...} )" },
+		{ "trigger": "math.pow( ... )", "contents": "math.pow( ${1:...} )" },
+		{ "trigger": "math.randomseed( ... )", "contents": "math.randomseed( ${1:...} )" },
+		{ "trigger": "math.frexp( ... )", "contents": "math.frexp( ${1:...} )" },
+		{ "trigger": "math.abs( ... )", "contents": "math.abs( ${1:...} )" },
+		{ "trigger": "math.tanh( ... )", "contents": "math.tanh( ${1:...} )" },
+		{ "trigger": "math.acos( ... )", "contents": "math.acos( ${1:...} )" },
+		{ "trigger": "math.atan2( ... )", "contents": "math.atan2( ${1:...} )" },
+		{ "trigger": "math.tan( ... )", "contents": "math.tan( ${1:...} )" },
+		{ "trigger": "math.min( ... )", "contents": "math.min( ${1:...} )" },
+		{ "trigger": "math.ceil( ... )", "contents": "math.ceil( ${1:...} )" },
+		{ "trigger": "math.sinh( ... )", "contents": "math.sinh( ${1:...} )" },
+		{ "trigger": "math.sqrt( ... )", "contents": "math.sqrt( ${1:...} )" },
+		{ "trigger": "math.rad( ... )", "contents": "math.rad( ${1:...} )" },
+		{ "trigger": "math.sin( ... )", "contents": "math.sin( ${1:...} )" },
+		{ "trigger": "math.exp( ... )", "contents": "math.exp( ${1:...} )" },
+		{ "trigger": "math.cos( ... )", "contents": "math.cos( ${1:...} )" },
+		{ "trigger": "math.atan( ... )", "contents": "math.atan( ${1:...} )" }
+	]
+}

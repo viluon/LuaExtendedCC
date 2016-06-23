@@ -1,0 +1,20 @@
+//Completions for the string library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "string.len( ... )", "contents": "string.len( ${1:...} )" },
+		{ "trigger": "string.find( ... )", "contents": "string.find( ${1:...} )" },
+		{ "trigger": "string.gmatch( ... )", "contents": "string.gmatch( ${1:...} )" },
+		{ "trigger": "string.byte( ... )", "contents": "string.byte( ${1:...} )" },
+		{ "trigger": "string.dump( ... )", "contents": "string.dump( ${1:...} )" },
+		{ "trigger": "string.reverse( ... )", "contents": "string.reverse( ${1:...} )" },
+		{ "trigger": "string.upper( ... )", "contents": "string.upper( ${1:...} )" },
+		{ "trigger": "string.format( ... )", "contents": "string.format( ${1:...} )" },
+		{ "trigger": "string.rep( ... )", "contents": "string.rep( ${1:...} )" },
+		{ "trigger": "string.lower( ... )", "contents": "string.lower( ${1:...} )" },
+		{ "trigger": "string.sub( ... )", "contents": "string.sub( ${1:...} )" },
+		{ "trigger": "string.gsub( ... )", "contents": "string.gsub( ${1:...} )" },
+		{ "trigger": "string.match( ... )", "contents": "string.match( ${1:...} )" },
+		{ "trigger": "string.char( ... )", "contents": "string.char( ${1:...} )" }
+	]
+}

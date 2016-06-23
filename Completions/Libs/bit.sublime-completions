@@ -1,0 +1,13 @@
+//Completions for the bit library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "bit.bxor( ... )", "contents": "bit.bxor( ${1:...} )" },
+		{ "trigger": "bit.bor( ... )", "contents": "bit.bor( ${1:...} )" },
+		{ "trigger": "bit.blshift( ... )", "contents": "bit.blshift( ${1:...} )" },
+		{ "trigger": "bit.blogic_rshift( ... )", "contents": "bit.blogic_rshift( ${1:...} )" },
+		{ "trigger": "bit.brshift( ... )", "contents": "bit.brshift( ${1:...} )" },
+		{ "trigger": "bit.band( ... )", "contents": "bit.band( ${1:...} )" },
+		{ "trigger": "bit.bnot( ... )", "contents": "bit.bnot( ${1:...} )" }
+	]
+}

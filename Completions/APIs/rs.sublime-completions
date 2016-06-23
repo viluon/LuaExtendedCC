@@ -1,34 +1,13 @@
-//Completions for the rs API
+//Completions for the rs API:
 {
   "scope": "source.luaecc - string",
   "completions": [
-		{
-			"trigger": "rs.getSides( )",
-			"contents": "rs.getSides()"
-		},
-		{
-			"trigger": "rs.getInput( side )",
-			"contents": "rs.getInput( ${1:side} )"
-		},
-		{
-			"trigger": "rs.setOutput( side, boolean )",
-			"contents": "rs.setOutput( ${1:side}, ${2:boolean} )"
-		},
-		{
-			"trigger": "rs.getOutput( side )",
-			"contents": "rs.getOutput( ${1:side} )"
-		},
-		{
-			"trigger": "rs.getAnalogInput( side )",
-			"contents": "rs.getAnalogInput( ${1:side} )"
-		},
-		{
-			"trigger": "rs.setAnalogOutput( side, number )",
-			"contents": "rs.setAnalogOutput( ${1:side}, ${2:number} )"
-		},
-		{
-			"trigger": "rs.getAnalogOutput( side )",
-			"contents": "rs.getAnalogOutput( ${1:side} )"
-		}
+		{ "trigger": "rs.getSides( )", "contents": "rs.getSides()" },
+		{ "trigger": "rs.getInput( side )", "contents": "rs.getInput( ${1:side} )" },
+		{ "trigger": "rs.setOutput( side, boolean )", "contents": "rs.setOutput( ${1:side}, ${2:boolean} )" },
+		{ "trigger": "rs.getOutput( side )", "contents": "rs.getOutput( ${1:side} )" },
+		{ "trigger": "rs.getAnalogInput( side )", "contents": "rs.getAnalogInput( ${1:side} )" },
+		{ "trigger": "rs.setAnalogOutput( side, number )", "contents": "rs.setAnalogOutput( ${1:side}, ${2:number} )" },
+		{ "trigger": "rs.getAnalogOutput( side )", "contents": "rs.getAnalogOutput( ${1:side} )" }
    ]
 }

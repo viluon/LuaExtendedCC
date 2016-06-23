@@ -1,0 +1,14 @@
+//Completions for the bit32 library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "bit32.bxor( ... )", "contents": "bit32.bxor( ${1:...} )" },
+		{ "trigger": "bit32.bor( ... )", "contents": "bit32.bor( ${1:...} )" },
+		{ "trigger": "bit32.lshift( ... )", "contents": "bit32.lshift( ${1:...} )" },
+		{ "trigger": "bit32.rshift( ... )", "contents": "bit32.rshift( ${1:...} )" },
+		{ "trigger": "bit32.arshift( ... )", "contents": "bit32.arshift( ${1:...} )" },
+		{ "trigger": "bit32.btest( ... )", "contents": "bit32.btest( ${1:...} )" },
+		{ "trigger": "bit32.band( ... )", "contents": "bit32.band( ${1:...} )" },
+		{ "trigger": "bit32.bnot( ... )", "contents": "bit32.bnot( ${1:...} )" }
+	]
+}

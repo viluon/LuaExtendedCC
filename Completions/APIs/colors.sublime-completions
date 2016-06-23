@@ -1,0 +1,9 @@
+//Completions for the colors API:
+{
+  "scope": "source.luaecc - string",
+  "completions": [
+		{ "trigger": "colors.combine( ... )", "contents": "colors.combine( ${1:...} )" },
+		{ "trigger": "colors.subtract( ... )", "contents": "colors.subtract( ${1:...} )" },
+		{ "trigger": "colors.test( ... )", "contents": "colors.test( ${1:...} )" }
+   ]
+}

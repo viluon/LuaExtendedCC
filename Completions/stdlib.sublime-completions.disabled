@@ -3,13 +3,8 @@
 	"completions":
 	[
 		// Constants
-		".G",
-		".VERSION",
-		{ "trigger": "package.cpath", "contents": "package.cpath" },
-		{ "trigger": "package.loaded", "contents": "package.loaded" },
-		{ "trigger": "package.loaders", "contents": "package.loaders" },
-		{ "trigger": "package.path", "contents": "package.path" },
-		{ "trigger": "package.preload", "contents": "package.preload" },
+		"_G",
+		"_VERSION",
 		{ "trigger": "math.pi", "contents": "math.pi" },
 		{ "trigger": "math.huge", "contents": "math.huge" },
 
@@ -17,8 +12,6 @@
 		{ "trigger": "coroutine.running()", "contents": "coroutine.running()" },
 		{ "trigger": "io.flush()", "contents": "io.flush()" },
 		{ "trigger": "io.tmpfile()", "contents": "io.tmpfile()" },
-		{ "trigger": "os.clock()", "contents": "os.clock()" },
-		{ "trigger": "os.tmpname()", "contents": "os.tmpname()" },
 		{ "trigger": "debug.debug()", "contents": "debug.debug()" },
 		{ "trigger": "debug.getregistry()", "contents": "debug.getregistry()" },
 

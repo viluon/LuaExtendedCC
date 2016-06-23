@@ -1,0 +1,7 @@
+//Completions for the keys library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "keys.getName( ... )", "contents": "keys.getName( ${1:...} )" },
+	]
+}

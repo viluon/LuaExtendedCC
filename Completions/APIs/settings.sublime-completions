@@ -1,34 +1,13 @@
-//Completions for the settings API
+//Completions for the settings API:
 {
   "scope": "source.luaecc - string",
   "completions": [
-		{
-			"trigger": "settings.get( name, [default] )",
-			"contents": "settings.get( ${1:name}, ${2:[default]} )"
-		},
-		{
-			"trigger": "settings.set( name, value )",
-			"contents": "settings.set( ${1:name}, ${2:value} )"
-		},
-		{
-			"trigger": "settings.unset( name )",
-			"contents": "settings.unset( ${1:name} )"
-		},
-		{
-			"trigger": "settings.load( path )",
-			"contents": "settings.load( ${1:path} )"
-		},
-		{
-			"trigger": "settings.save( path )",
-			"contents": "settings.save( ${1:path} )"
-		},
-		{
-			"trigger": "settings.clear()",
-			"contents": "settings.clear()"
-		},
-		{
-			"trigger": "settings.getNames()",
-			"contents": "settings.getNames()"
-		}
+		{ "trigger": "settings.get( name, [default] )", "contents": "settings.get( ${1:name}, ${2:[default]} )" },
+		{ "trigger": "settings.set( name, value )", "contents": "settings.set( ${1:name}, ${2:value} )" },
+		{ "trigger": "settings.unset( name )", "contents": "settings.unset( ${1:name} )" },
+		{ "trigger": "settings.load( path )", "contents": "settings.load( ${1:path} )" },
+		{ "trigger": "settings.save( path )", "contents": "settings.save( ${1:path} )" },
+		{ "trigger": "settings.clear()", "contents": "settings.clear()" },
+		{ "trigger": "settings.getNames()", "contents": "settings.getNames()" }
    ]
 }

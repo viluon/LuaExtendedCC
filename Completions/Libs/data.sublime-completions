@@ -1,0 +1,8 @@
+//Completions for the data library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "data.inflate( ... )", "contents": "data.inflate( ${1:...} )" },
+		{ "trigger": "data.deflate( ... )", "contents": "data.deflate( ${1:...} )" }
+	]
+}

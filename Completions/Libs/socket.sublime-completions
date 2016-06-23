@@ -1,0 +1,7 @@
+//Completions for the socket library:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "socket.connect( ... )", "contents": "socket.connect( ${1:...} )" }
+	]
+}

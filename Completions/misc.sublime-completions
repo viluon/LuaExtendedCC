@@ -1,0 +1,34 @@
+//Completions for other functions:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "type( ... )", "contents": "type( ${1:...} )" },
+		{ "trigger": "setfenv( ... )", "contents": "setfenv( ${1:...} )" },
+		{ "trigger": "loadstring( ... )", "contents": "loadstring( ${1:...} )" },
+		{ "trigger": "pairs( ... )", "contents": "pairs( ${1:...} )" },
+		{ "trigger": "rawequal( ... )", "contents": "rawequal( ${1:...} )" },
+		{ "trigger": "ipairs( ... )", "contents": "ipairs( ${1:...} )" },
+		{ "trigger": "xpcall( ... )", "contents": "xpcall( ${1:...} )" },
+		{ "trigger": "read( ... )", "contents": "read( ${1:...} )" },
+		{ "trigger": "unpack( ... )", "contents": "unpack( ${1:...} )" },
+		{ "trigger": "setmetatable( ... )", "contents": "setmetatable( ${1:...} )" },
+		{ "trigger": "rawset( ... )", "contents": "rawset( ${1:...} )" },
+		{ "trigger": "rawget( ... )", "contents": "rawget( ${1:...} )" },
+		{ "trigger": "getmetatable( ... )", "contents": "getmetatable( ${1:...} )" },
+		{ "trigger": "printError( ... )", "contents": "printError( ${1:...} )" },
+		{ "trigger": "sleep( ... )", "contents": "sleep( ${1:...} )" },
+		{ "trigger": "assert( ... )", "contents": "assert( ${1:...} )" },
+		{ "trigger": "error( ... )", "contents": "error( ${1:...} )" },
+		{ "trigger": "pcall( ... )", "contents": "pcall( ${1:...} )" },
+		{ "trigger": "tostring( ... )", "contents": "tostring( ${1:...} )" },
+		{ "trigger": "next( ... )", "contents": "next( ${1:...} )" },
+		{ "trigger": "tonumber( ... )", "contents": "tonumber( ${1:...} )" },
+		{ "trigger": "write( ... )", "contents": "write( ${1:...} )" },
+		{ "trigger": "loadfile( ... )", "contents": "loadfile( ${1:...} )" },
+		{ "trigger": "dofile( ... )", "contents": "dofile( ${1:...} )" },
+		{ "trigger": "select( ... )", "contents": "select( ${1:...} )" },
+		{ "trigger": "getfenv( ... )", "contents": "getfenv( ${1:...} )" },
+		{ "trigger": "load( ... )", "contents": "load( ${1:...} )" },
+		{ "trigger": "print( ... )", "contents": "print( ${1:...} )" }
+	]
+}

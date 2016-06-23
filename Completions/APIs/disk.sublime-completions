@@ -1,0 +1,17 @@
+//Completions for the disk API:
+{
+	"scope": "source.luaecc - string",
+	"completions": [
+		{ "trigger": "disk.setLabel( ... )", "contents": "disk.setLabel( ${1:...} )" },
+		{ "trigger": "disk.getLabel( ... )", "contents": "disk.getLabel( ${1:...} )" },
+		{ "trigger": "disk.hasAudio( ... )", "contents": "disk.hasAudio( ${1:...} )" },
+		{ "trigger": "disk.eject( ... )", "contents": "disk.eject( ${1:...} )" },
+		{ "trigger": "disk.hasData( ... )", "contents": "disk.hasData( ${1:...} )" },
+		{ "trigger": "disk.playAudio( ... )", "contents": "disk.playAudio( ${1:...} )" },
+		{ "trigger": "disk.getAudioTitle( ... )", "contents": "disk.getAudioTitle( ${1:...} )" },
+		{ "trigger": "disk.isPresent( ... )", "contents": "disk.isPresent( ${1:...} )" },
+		{ "trigger": "disk.getID( ... )", "contents": "disk.getID( ${1:...} )" },
+		{ "trigger": "disk.stopAudio( ... )", "contents": "disk.stopAudio( ${1:...} )" },
+		{ "trigger": "disk.getMountPath( ... )", "contents": "disk.getMountPath( ${1:...} )" }
+	]
+}
