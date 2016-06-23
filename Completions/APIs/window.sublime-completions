@@ -2,10 +2,9 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "window_create( parent, x, y, width, height, visible )",
+		{
+			"trigger": "window.create( parent, x, y, width, height, visible )",
 			"contents": "window.create( ${1:parent}, ${2:x}, ${3:y}, ${4:width}, ${5:height}, ${6:visible} )"
 		}
-
-  ]
+   ]
 }

@@ -2,42 +2,41 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "textutils_slowPrint( text )",
+		{
+			"trigger": "textutils.slowPrint( text )",
 			"contents": "textutils.slowPrint( ${1:text} )"
 		},
 		{
-			"trigger": "textutils_tabulate( table, table2, ... )",
+			"trigger": "textutils.tabulate( table, table2, ... )",
 			"contents": "textutils.tabulate( ${1:table}, ${2:table2}, ${3:...} )"
 		},
 		{
-			"trigger": "textutils_pagedTabulate( table, table2, ... )",
+			"trigger": "textutils.pagedTabulate( table, table2, ... )",
 			"contents": "textutils.pagedTabulate( ${1:table}, ${2:table2}, ${3:...} )"
 		},
 		{
-			"trigger": "textutils_formatTime( time, bTwentyFourHour )",
+			"trigger": "textutils.formatTime( time, bTwentyFourHour )",
 			"contents": "textutils.formatTime( ${1:time}, ${2:bTwentyFourHour} )"
 		},
 		{
-			"trigger": "textutils_serialize( table )",
+			"trigger": "textutils.serialize( table )",
 			"contents": "textutils.serialize( ${1:table} )"
 		},
 		{
-			"trigger": "textutils_unserialize( string )",
+			"trigger": "textutils.unserialize( string )",
 			"contents": "textutils.unserialize( ${1:string} )"
 		},
 		{
-			"trigger": "textutils_serializeJSON( table, [useNBTStyle] )",
+			"trigger": "textutils.serializeJSON( table, [useNBTStyle] )",
 			"contents": "textutils.serializeJSON( ${1:table}, ${2:[useNBTStyle]} )"
 		},
 		{
-			"trigger": "textutils_urlEncode( string )",
+			"trigger": "textutils.urlEncode( string )",
 			"contents": "textutils.urlEncode( ${1:string} )"
 		},
 		{
-			"trigger": "textutils_complete( string, table )",
+			"trigger": "textutils.complete( string, table )",
 			"contents": "textutils.complete( ${1:string}, ${2:table} )"
 		}
-
-  ]
+   ]
 }

@@ -2,82 +2,81 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "os_version()",
+		{
+			"trigger": "os.version()",
 			"contents": "os.version()"
 		},
 		{
-			"trigger": "os_getComputerID()",
+			"trigger": "os.getComputerID()",
 			"contents": "os.getComputerID()"
 		},
 		{
-			"trigger": "os_getComputerLabel()",
+			"trigger": "os.getComputerLabel()",
 			"contents": "os.getComputerLabel()"
 		},
 		{
-			"trigger": "os_setComputerLabel()",
+			"trigger": "os.setComputerLabel()",
 			"contents": "os.setComputerLabel()"
 		},
 		{
-			"trigger": "os_run( environment, programpath, arguments )",
+			"trigger": "os.run( environment, programpath, arguments )",
 			"contents": "os.run( ${1:environment}, ${2:programpath}, ${3:arguments} )"
 		},
 		{
-			"trigger": "os_loadAPI( path )",
+			"trigger": "os.loadAPI( path )",
 			"contents": "os.loadAPI( ${1:path} )"
 		},
 		{
-			"trigger": "os_unloadAPI( name )",
+			"trigger": "os.unloadAPI( name )",
 			"contents": "os.unloadAPI( ${1:name} )"
 		},
 		{
-			"trigger": "os_pullEvent( [filter] )",
+			"trigger": "os.pullEvent( [filter] )",
 			"contents": "os.pullEvent( ${1:[filter]} )"
 		},
 		{
-			"trigger": "os_queueEvent( event, arguments )",
+			"trigger": "os.queueEvent( event, arguments )",
 			"contents": "os.queueEvent( ${1:event}, ${2:arguments} )"
 		},
 		{
-			"trigger": "os_clock()",
+			"trigger": "os.clock()",
 			"contents": "os.clock()"
 		},
 		{
-			"trigger": "os_startTimer( timeout )",
+			"trigger": "os.startTimer( timeout )",
 			"contents": "os.startTimer( ${1:timeout} )"
 		},
 		{
-			"trigger": "os_cancelTimer( token )",
+			"trigger": "os.cancelTimer( token )",
 			"contents": "os.cancelTimer( ${1:token} )"
 		},
 		{
-			"trigger": "os_sleep( timeout )",
+			"trigger": "os.sleep( timeout )",
 			"contents": "os.sleep( ${1:timeout} )"
 		},
 		{
-			"trigger": "os_time()",
+			"trigger": "os.time()",
 			"contents": "os.time()"
 		},
 		{
-			"trigger": "os_day()",
+			"trigger": "os.day()",
 			"contents": "os.day()"
 		},
 		{
-			"trigger": "os_setAlarm( time )",
+			"trigger": "os.setAlarm( time )",
 			"contents": "os.setAlarm( ${1:time} )"
 		},
 		{
-			"trigger": "os_cancelAlarm( token )",
+			"trigger": "os.cancelAlarm( token )",
 			"contents": "os.cancelAlarm( ${1:token} )"
 		},
 		{
-			"trigger": "os_shutdown()",
+			"trigger": "os.shutdown()",
 			"contents": "os.shutdown()"
 		},
 		{
-			"trigger": "os_reboot()",
+			"trigger": "os.reboot()",
 			"contents": "os.reboot()"
 		}
-
-  ]
+   ]
 }

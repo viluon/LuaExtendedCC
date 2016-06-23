@@ -2,78 +2,77 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "shell_exit()",
+		{
+			"trigger": "shell.exit()",
 			"contents": "shell.exit()"
 		},
 		{
-			"trigger": "shell_dir()",
+			"trigger": "shell.dir()",
 			"contents": "shell.dir()"
 		},
 		{
-			"trigger": "shell_setDir( path )",
+			"trigger": "shell.setDir( path )",
 			"contents": "shell.setDir( ${1:path} )"
 		},
 		{
-			"trigger": "shell_path()",
+			"trigger": "shell.path()",
 			"contents": "shell.path()"
 		},
 		{
-			"trigger": "shell_setPath( path )",
+			"trigger": "shell.setPath( path )",
 			"contents": "shell.setPath( ${1:path} )"
 		},
 		{
-			"trigger": "shell_resolve( localpath )",
+			"trigger": "shell.resolve( localpath )",
 			"contents": "shell.resolve( ${1:localpath} )"
 		},
 		{
-			"trigger": "shell_resolveProgram( name )",
+			"trigger": "shell.resolveProgram( name )",
 			"contents": "shell.resolveProgram( ${1:name} )"
 		},
 		{
-			"trigger": "shell_aliases()",
+			"trigger": "shell.aliases()",
 			"contents": "shell.aliases()"
 		},
 		{
-			"trigger": "shell_setAlias( alias, command )",
+			"trigger": "shell.setAlias( alias, command )",
 			"contents": "shell.setAlias( ${1:alias}, ${2:command} )"
 		},
 		{
-			"trigger": "shell_clearAlias( alias )",
+			"trigger": "shell.clearAlias( alias )",
 			"contents": "shell.clearAlias( ${1:alias} )"
 		},
 		{
-			"trigger": "shell_programs()",
+			"trigger": "shell.programs()",
 			"contents": "shell.programs()"
 		},
 		{
-			"trigger": "shell_run( program, arguments )",
+			"trigger": "shell.run( program, arguments )",
 			"contents": "shell.run( ${1:program}, ${2:arguments} )"
 		},
 		{
-			"trigger": "shell_getRunningProgram()",
+			"trigger": "shell.getRunningProgram()",
 			"contents": "shell.getRunningProgram()"
 		},
 		{
-			"trigger": "shell_complete( line )",
+			"trigger": "shell.complete( line )",
 			"contents": "shell.complete( ${1:line} )"
 		},
 		{
-			"trigger": "shell_completeProgram( program )",
+			"trigger": "shell.completeProgram( program )",
 			"contents": "shell.completeProgram( ${1:program} )"
 		},
 		{
-			"trigger": "shell_setCompletionFunction( program, fnComplete )",
+			"trigger": "shell.setCompletionFunction( program, fnComplete )",
 			"contents": "shell.setCompletionFunction( ${1:program}, ${2:fnComplete} )"
 		},
 		{
-			"trigger": "shell_openTab( program, arguments )",
+			"trigger": "shell.openTab( program, arguments )",
 			"contents": "shell.openTab( ${1:program}, ${2:arguments} )"
 		},
 		{
-			"trigger": "shell_switchTab( n )",
+			"trigger": "shell.switchTab( n )",
 			"contents": "shell.switchTab( ${1:n} )"
 		}
-
-  ]
+   ]
 }

@@ -2,34 +2,33 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "redstone_getSides( )",
+		{
+			"trigger": "redstone.getSides( )",
 			"contents": "redstone.getSides()"
 		},
 		{
-			"trigger": "redstone_getInput( side )",
+			"trigger": "redstone.getInput( side )",
 			"contents": "redstone.getInput( ${1:side} )"
 		},
 		{
-			"trigger": "redstone_setOutput( side, boolean )",
+			"trigger": "redstone.setOutput( side, boolean )",
 			"contents": "redstone.setOutput( ${1:side}, ${2:boolean} )"
 		},
 		{
-			"trigger": "redstone_getOutput( side )",
+			"trigger": "redstone.getOutput( side )",
 			"contents": "redstone.getOutput( ${1:side} )"
 		},
 		{
-			"trigger": "redstone_getAnalogInput( side )",
+			"trigger": "redstone.getAnalogInput( side )",
 			"contents": "redstone.getAnalogInput( ${1:side} )"
 		},
 		{
-			"trigger": "redstone_setAnalogOutput( side, number )",
+			"trigger": "redstone.setAnalogOutput( side, number )",
 			"contents": "redstone.setAnalogOutput( ${1:side}, ${2:number} )"
 		},
 		{
-			"trigger": "redstone_getAnalogOutput( side )",
+			"trigger": "redstone.getAnalogOutput( side )",
 			"contents": "redstone.getAnalogOutput( ${1:side} )"
 		}
-
-  ]
+   ]
 }

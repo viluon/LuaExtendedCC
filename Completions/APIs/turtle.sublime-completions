@@ -2,182 +2,181 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "turtle_forward()",
+		{
+			"trigger": "turtle.forward()",
 			"contents": "turtle.forward()"
 		},
 		{
-			"trigger": "turtle_back()",
+			"trigger": "turtle.back()",
 			"contents": "turtle.back()"
 		},
 		{
-			"trigger": "turtle_up()",
+			"trigger": "turtle.up()",
 			"contents": "turtle.up()"
 		},
 		{
-			"trigger": "turtle_down()",
+			"trigger": "turtle.down()",
 			"contents": "turtle.down()"
 		},
 		{
-			"trigger": "turtle_turnLeft()",
+			"trigger": "turtle.turnLeft()",
 			"contents": "turtle.turnLeft()"
 		},
 		{
-			"trigger": "turtle_turnRight()",
+			"trigger": "turtle.turnRight()",
 			"contents": "turtle.turnRight()"
 		},
 		{
-			"trigger": "turtle_select( slotNum )",
+			"trigger": "turtle.select( slotNum )",
 			"contents": "turtle.select( ${1:slotNum} )"
 		},
 		{
-			"trigger": "turtle_getSelectedSlot()",
+			"trigger": "turtle.getSelectedSlot()",
 			"contents": "turtle.getSelectedSlot()"
 		},
 		{
-			"trigger": "turtle_getItemCount( [slotNum] )",
+			"trigger": "turtle.getItemCount( [slotNum] )",
 			"contents": "turtle.getItemCount( ${1:[slotNum]} )"
 		},
 		{
-			"trigger": "turtle_getItemSpace( [slotNum] )",
+			"trigger": "turtle.getItemSpace( [slotNum] )",
 			"contents": "turtle.getItemSpace( ${1:[slotNum]} )"
 		},
 		{
-			"trigger": "turtle_getItemDetail( [slotNum] )",
+			"trigger": "turtle.getItemDetail( [slotNum] )",
 			"contents": "turtle.getItemDetail( ${1:[slotNum]} )"
 		},
 		{
-			"trigger": "turtle_equipLeft()",
+			"trigger": "turtle.equipLeft()",
 			"contents": "turtle.equipLeft()"
 		},
 		{
-			"trigger": "turtle_equipRight()",
+			"trigger": "turtle.equipRight()",
 			"contents": "turtle.equipRight()"
 		},
 		{
-			"trigger": "turtle_dig( [toolSide] )",
+			"trigger": "turtle.dig( [toolSide] )",
 			"contents": "turtle.dig( ${1:[toolSide]} )"
 		},
 		{
-			"trigger": "turtle_digUp( [toolSide] )",
+			"trigger": "turtle.digUp( [toolSide] )",
 			"contents": "turtle.digUp( ${1:[toolSide]} )"
 		},
 		{
-			"trigger": "turtle_digDown( [toolSide] )",
+			"trigger": "turtle.digDown( [toolSide] )",
 			"contents": "turtle.digDown( ${1:[toolSide]} )"
 		},
 		{
-			"trigger": "turtle_place()",
+			"trigger": "turtle.place()",
 			"contents": "turtle.place()"
 		},
 		{
-			"trigger": "turtle_placeUp()",
+			"trigger": "turtle.placeUp()",
 			"contents": "turtle.placeUp()"
 		},
 		{
-			"trigger": "turtle_placeDown()",
+			"trigger": "turtle.placeDown()",
 			"contents": "turtle.placeDown()"
 		},
 		{
-			"trigger": "turtle_attack( [toolSide] )",
+			"trigger": "turtle.attack( [toolSide] )",
 			"contents": "turtle.attack( ${1:[toolSide]} )"
 		},
 		{
-			"trigger": "turtle_attackUp( [toolSide] )",
+			"trigger": "turtle.attackUp( [toolSide] )",
 			"contents": "turtle.attackUp( ${1:[toolSide]} )"
 		},
 		{
-			"trigger": "turtle_attackDown( [toolSide] )",
+			"trigger": "turtle.attackDown( [toolSide] )",
 			"contents": "turtle.attackDown( ${1:[toolSide]} )"
 		},
 		{
-			"trigger": "turtle_detect()",
+			"trigger": "turtle.detect()",
 			"contents": "turtle.detect()"
 		},
 		{
-			"trigger": "turtle_detectUp()",
+			"trigger": "turtle.detectUp()",
 			"contents": "turtle.detectUp()"
 		},
 		{
-			"trigger": "turtle_detectDown()",
+			"trigger": "turtle.detectDown()",
 			"contents": "turtle.detectDown()"
 		},
 		{
-			"trigger": "turtle_compare()",
+			"trigger": "turtle.compare()",
 			"contents": "turtle.compare()"
 		},
 		{
-			"trigger": "turtle_compareUp()",
+			"trigger": "turtle.compareUp()",
 			"contents": "turtle.compareUp()"
 		},
 		{
-			"trigger": "turtle_compareDown()",
+			"trigger": "turtle.compareDown()",
 			"contents": "turtle.compareDown()"
 		},
 		{
-			"trigger": "turtle_inspect()",
+			"trigger": "turtle.inspect()",
 			"contents": "turtle.inspect()"
 		},
 		{
-			"trigger": "turtle_inspectUp()",
+			"trigger": "turtle.inspectUp()",
 			"contents": "turtle.inspectUp()"
 		},
 		{
-			"trigger": "turtle_inspectDown()",
+			"trigger": "turtle.inspectDown()",
 			"contents": "turtle.inspectDown()"
 		},
 		{
-			"trigger": "turtle_inspectSlot( [slotNum] )",
+			"trigger": "turtle.inspectSlot( [slotNum] )",
 			"contents": "turtle.inspectSlot( ${1:[slotNum]} )"
 		},
 		{
-			"trigger": "turtle_compareTo( slotNum )",
+			"trigger": "turtle.compareTo( slotNum )",
 			"contents": "turtle.compareTo( ${1:slotNum} )"
 		},
 		{
-			"trigger": "turtle_transferTo( slotNum, [quantity] )",
+			"trigger": "turtle.transferTo( slotNum, [quantity] )",
 			"contents": "turtle.transferTo( ${1:slotNum}, ${2:[quantity]} )"
 		},
 		{
-			"trigger": "turtle_drop( [quantity] )",
+			"trigger": "turtle.drop( [quantity] )",
 			"contents": "turtle.drop( ${1:[quantity]} )"
 		},
 		{
-			"trigger": "turtle_dropUp( [quantity] )",
+			"trigger": "turtle.dropUp( [quantity] )",
 			"contents": "turtle.dropUp( ${1:[quantity]} )"
 		},
 		{
-			"trigger": "turtle_dropDown( [quantity] )",
+			"trigger": "turtle.dropDown( [quantity] )",
 			"contents": "turtle.dropDown( ${1:[quantity]} )"
 		},
 		{
-			"trigger": "turtle_suck( [quantity] )",
+			"trigger": "turtle.suck( [quantity] )",
 			"contents": "turtle.suck( ${1:[quantity]} )"
 		},
 		{
-			"trigger": "turtle_suckUp( [quantity] )",
+			"trigger": "turtle.suckUp( [quantity] )",
 			"contents": "turtle.suckUp( ${1:[quantity]} )"
 		},
 		{
-			"trigger": "turtle_suckDown( [quantity] )",
+			"trigger": "turtle.suckDown( [quantity] )",
 			"contents": "turtle.suckDown( ${1:[quantity]} )"
 		},
 		{
-			"trigger": "turtle_getFuelLevel()",
+			"trigger": "turtle.getFuelLevel()",
 			"contents": "turtle.getFuelLevel()"
 		},
 		{
-			"trigger": "turtle_getFuelLimit()",
+			"trigger": "turtle.getFuelLimit()",
 			"contents": "turtle.getFuelLimit()"
 		},
 		{
-			"trigger": "turtle_refuel( [quantity] )",
+			"trigger": "turtle.refuel( [quantity] )",
 			"contents": "turtle.refuel( ${1:[quantity]} )"
 		},
 		{
-			"trigger": "turtle_craft( [quantity] )",
+			"trigger": "turtle.craft( [quantity] )",
 			"contents": "turtle.craft( ${1:[quantity]} )"
 		}
-
-  ]
+   ]
 }

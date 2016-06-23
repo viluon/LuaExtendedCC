@@ -2,10 +2,9 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "vector_new( x,y,z )",
+		{
+			"trigger": "vector.new( x,y,z )",
 			"contents": "vector.new( ${1:x}, ${2:y}, ${3:z} )"
 		}
-
-  ]
+   ]
 }

@@ -2,18 +2,17 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "rednet_open( side )",
+		{
+			"trigger": "rednet.open( side )",
 			"contents": "rednet.open( ${1:side} )"
 		},
 		{
-			"trigger": "rednet_close( [side] )",
+			"trigger": "rednet.close( [side] )",
 			"contents": "rednet.close( ${1:[side]} )"
 		},
 		{
-			"trigger": "rednet_isOpen( [side] )",
+			"trigger": "rednet.isOpen( [side] )",
 			"contents": "rednet.isOpen( ${1:[side]} )"
 		}
-
-  ]
+   ]
 }

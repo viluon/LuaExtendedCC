@@ -2,22 +2,21 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "http_checkURL( url )",
+		{
+			"trigger": "http.checkURL( url )",
 			"contents": "http.checkURL( ${1:url} )"
 		},
 		{
-			"trigger": "http_request( url, [postData], [headers] )",
+			"trigger": "http.request( url, [postData], [headers] )",
 			"contents": "http.request( ${1:url}, ${2:[postData]}, ${3:[headers]} )"
 		},
 		{
-			"trigger": "http_get( url, [headers] )",
+			"trigger": "http.get( url, [headers] )",
 			"contents": "http.get( ${1:url}, ${2:[headers]} )"
 		},
 		{
-			"trigger": "http_post( url, postData, [headers] )",
+			"trigger": "http.post( url, postData, [headers] )",
 			"contents": "http.post( ${1:url}, ${2:postData}, ${3:[headers]} )"
 		}
-
-  ]
+   ]
 }

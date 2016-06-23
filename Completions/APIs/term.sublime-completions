@@ -2,70 +2,69 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "term_write( text )",
+		{
+			"trigger": "term.write( text )",
 			"contents": "term.write( ${1:text} )"
 		},
 		{
-			"trigger": "term_blit( text, textColor, backgroundColor )",
+			"trigger": "term.blit( text, textColor, backgroundColor )",
 			"contents": "term.blit( ${1:text}, ${2:textColor}, ${3:backgroundColor} )"
 		},
 		{
-			"trigger": "term_clear()",
+			"trigger": "term.clear()",
 			"contents": "term.clear()"
 		},
 		{
-			"trigger": "term_clearLine()",
+			"trigger": "term.clearLine()",
 			"contents": "term.clearLine()"
 		},
 		{
-			"trigger": "term_getCursorPos()",
+			"trigger": "term.getCursorPos()",
 			"contents": "term.getCursorPos()"
 		},
 		{
-			"trigger": "term_setCursorPos( x, y )",
+			"trigger": "term.setCursorPos( x, y )",
 			"contents": "term.setCursorPos( ${1:x}, ${2:y} )"
 		},
 		{
-			"trigger": "term_setCursorBlink( blink )",
+			"trigger": "term.setCursorBlink( blink )",
 			"contents": "term.setCursorBlink( ${1:blink} )"
 		},
 		{
-			"trigger": "term_isColor()",
+			"trigger": "term.isColor()",
 			"contents": "term.isColor()"
 		},
 		{
-			"trigger": "term_setTextColor( color )",
+			"trigger": "term.setTextColor( color )",
 			"contents": "term.setTextColor( ${1:color} )"
 		},
 		{
-			"trigger": "term_setBackgroundColor( color )",
+			"trigger": "term.setBackgroundColor( color )",
 			"contents": "term.setBackgroundColor( ${1:color} )"
 		},
 		{
-			"trigger": "term_getTextColor()",
+			"trigger": "term.getTextColor()",
 			"contents": "term.getTextColor()"
 		},
 		{
-			"trigger": "term_getBackgroundColor()",
+			"trigger": "term.getBackgroundColor()",
 			"contents": "term.getBackgroundColor()"
 		},
 		{
-			"trigger": "term_getSize()",
+			"trigger": "term.getSize()",
 			"contents": "term.getSize()"
 		},
 		{
-			"trigger": "term_scroll( n )",
+			"trigger": "term.scroll( n )",
 			"contents": "term.scroll( ${1:n} )"
 		},
 		{
-			"trigger": "term_redirect( object )",
+			"trigger": "term.redirect( object )",
 			"contents": "term.redirect( ${1:object} )"
 		},
 		{
-			"trigger": "term_current()",
+			"trigger": "term.current()",
 			"contents": "term.current()"
 		}
-
-  ]
+   ]
 }

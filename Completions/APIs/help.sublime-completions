@@ -2,22 +2,21 @@
 {
   "scope": "source.luaecc - string",
   "completions": [
-			{
-			"trigger": "help_setPath( path )",
+		{
+			"trigger": "help.setPath( path )",
 			"contents": "help.setPath( ${1:path} )"
 		},
 		{
-			"trigger": "help_lookup( topic )",
+			"trigger": "help.lookup( topic )",
 			"contents": "help.lookup( ${1:topic} )"
 		},
 		{
-			"trigger": "help_topics()",
+			"trigger": "help.topics()",
 			"contents": "help.topics()"
 		},
 		{
-			"trigger": "help_completeTopic( topic )",
+			"trigger": "help.completeTopic( topic )",
 			"contents": "help.completeTopic( ${1:topic} )"
 		}
-
-  ]
+   ]
 }
