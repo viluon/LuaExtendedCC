@@ -3,7 +3,7 @@
 	"scope": "source.luaecc - string",
 	"completions": [
 		"_G",
-		"_VERSION"
+		"_VERSION",
 		{ "trigger": "type( ... )", "contents": "type( ${1:...} )" },
 		{ "trigger": "setfenv( ... )", "contents": "setfenv( ${1:...} )" },
 		{ "trigger": "loadstring( ... )", "contents": "loadstring( ${1:...} )" },
